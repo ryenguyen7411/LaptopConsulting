@@ -1,0 +1,3495 @@
+﻿{
+  "results":[
+    {
+      "category":"Chromebook",
+      "createdAt":"2015-11-30T02:11:30.927Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Lenovo_100S.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"130",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Lenovo-100s-11-6-Inch-Chromebook-80QN0009US/dp/B014MIBQXA/?tag=logicaincrem-20"
+            },
+            {
+              "price":"140",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3D9SIA0ZX3H21669"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Lightweight, decent battery life, very cheap!",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"For an extraordinarily cheap price, you get a fully functional laptop, with good battery life and a small form factor. This chromebook is light, and it looks professional. The storage is very limited, so you will not be storing anything other than documents on this machine. You will be relying on having a good internet connection if you want to use this for entertainment, too.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"Celeron N2840",
+          "title":"cpu"
+        },
+        {
+          "desc":"An efficient dual CPU. Weak, but helps give a long battery life, and reduces the need for cooling.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics (Bay Trail)",
+          "title":"gpu"
+        },
+        {
+          "desc":"This iGPU can display your emails, facebooks, and Youtube. What it cannot do is play games.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"2GB",
+          "title":"ram"
+        },
+        {
+          "desc":"16GB eMMC",
+          "title":"storage"
+        },
+        {
+          "desc":"11.6 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1366x768",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"2.6",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"7",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"4",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"0",
+          "title":"perfgames"
+        },
+        {
+          "desc":"3",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Chrome OS",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Blue, Red, Grey, White",
+          "title":"colours"
+        },
+        {
+          "desc":"Extremely cheap, light, good battery life.",
+          "title":"pros"
+        },
+        {
+          "desc":"Weak, low resolution screen, TN panel, very limited storage",
+          "title":"cons"
+        },
+        {
+          "desc":"TN",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Matte",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"11.8\"",
+          "title":"length"
+        },
+        {
+          "desc":"8.2\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.8\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"0.3MP (640x480)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://shop.lenovo.com/us/en/laptops/lenovo/chromebook-series/100s-chromebook/",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Lenovo 100S",
+      "objectId":"yAFP2ARObK",
+      "order":1,
+      "reviews":[
+        {
+          "link":"http://www.laptopmag.com/reviews/laptops/lenovo-ideapad-100s",
+          "name":"Laptopmag Review",
+          "rating":"80"
+        },
+        {
+          "link":"http://www.techradar.com/reviews/pc-mac/laptops-portable-pcs/lenovo-ideapad-100s-1303533/review",
+          "name":"TechRadar Review",
+          "rating":"60"
+        },
+        {
+          "link":"http://www.notebookreview.com/notebookreview/lenovo-ideapad-100s-review-windows-10-on-a-budget/",
+          "name":"Notebook Review",
+          "rating":"70"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.927Z"
+    },
+    {
+      "category":"Chromebook",
+      "createdAt":"2015-11-30T02:11:30.972Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/HP_Chromebook11G4.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"140",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834261737"
+            },
+            {
+              "price":"180",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/HP-Chromebook-11-6-Inch-Celeron-Dual-core/dp/B010C93ZZA/?tag=logicaincrem-20"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"A decent laptop with decent battery life. ",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"An alternative cheap chromebook, with a slightly different aesthetic. Good battery life, light weight, and quite thin too. It has the advantage of a better screen, but still suffers from the limited storage, weak CPU and GPU that is common in all cheap chromebooks.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"Celeron N2840",
+          "title":"cpu"
+        },
+        {
+          "desc":"An efficient dual CPU. Weak, but helps give a long battery life, and reduces the need for cooling.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics (Bay Trail)",
+          "title":"gpu"
+        },
+        {
+          "desc":"This iGPU can display your emails, facebooks, and Youtube. What it cannot do is play games.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"2GB",
+          "title":"ram"
+        },
+        {
+          "desc":"16GB eMMC ",
+          "title":"storage"
+        },
+        {
+          "desc":"11.6 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1366x768",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"2.8",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"7",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"3.5",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"0",
+          "title":"perfgames"
+        },
+        {
+          "desc":"3",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Chrome OS",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Good battery life",
+          "title":"pros"
+        },
+        {
+          "desc":"Weak, low resolution screen, very limited storage",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS ",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Anti-glare",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"11.8\"",
+          "title":"length"
+        },
+        {
+          "desc":"8.1\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.8\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://www8.hp.com/us/en/products/laptops/product-detail.html?oid=8707056#!tab=specs",
+          "title":"officialsite"
+        }
+      ],
+      "name":"HP Chromebook 11 G4",
+      "objectId":"wXMC63cXum",
+      "order":2,
+      "reviews":[
+        {
+          "link":"http://www.laptopmag.com/reviews/laptops/hp-chromebook-11-g4",
+          "name":"Laptopmag Review",
+          "rating":"60"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.972Z"
+    },
+    {
+      "category":"Chromebook",
+      "createdAt":"2015-11-30T02:11:30.947Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Asus_ChromebookC300M.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"180",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Chromebook-13-Inch-Gigabit-Storage-Black/dp/B00OD38V2E/?tag=logicaincrem-20"
+            },
+            {
+              "price":"200",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834232259"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Professional looks, quality construction.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"Check out the spectacular battery life! This chromebook has a larger screen than its similarly-priced competitors, but the screen resolution remains the same. It looks nice, and is very cheap, making a decent option for those who want a 13 inch mobile laptop on an extremely limited budget.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"Celeron N2830",
+          "title":"cpu"
+        },
+        {
+          "desc":"An efficient dual CPU. Weak, but helps give a long battery life, and reduces the need for cooling.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics (Bay Trail)",
+          "title":"gpu"
+        },
+        {
+          "desc":"This iGPU can display your emails, facebooks, and Youtube. What it cannot do is play games.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"4GB",
+          "title":"ram"
+        },
+        {
+          "desc":"16GB eMMC ",
+          "title":"storage"
+        },
+        {
+          "desc":"13.3 inches. ",
+          "title":"screensize"
+        },
+        {
+          "desc":"1366x768",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"3.1",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"14",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"5",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"0",
+          "title":"perfgames"
+        },
+        {
+          "desc":"4",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Chrome OS",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Excellent battery life",
+          "title":"pros"
+        },
+        {
+          "desc":"Weak, low resolution screen, TN panel, very limited storage",
+          "title":"cons"
+        },
+        {
+          "desc":"TN",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Matte",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"13.0\"",
+          "title":"length"
+        },
+        {
+          "desc":"9.1\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.8\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"https://www.asus.com/us/Notebooks/ASUS_Chromebook_C300/",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Asus Chromebook C300MA",
+      "objectId":"fjLP27BBsm",
+      "order":3,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/Asus-C300MA-Chromebook-Review.136268.0.html",
+          "name":"Notebookcheck Review",
+          "rating":""
+        },
+        {
+          "link":"http://www.pcmag.com/article2/0,2817,2473070,00.asp",
+          "name":"PCMag Review",
+          "rating":"80"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.947Z"
+    },
+    {
+      "category":"Chromebook",
+      "createdAt":"2015-11-30T02:11:30.988Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Dell_Chromebook11.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"239",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Dell-Chromebook-Non-Touch-Certified-Refurbished/dp/B00ZMIGMRU/?tag=logicaincrem-20"
+            },
+            {
+              "price":"253",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3D1TS-000A-009P8"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Long battery life, strongly built machine.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"Professional looking, well designed, tough, and has a long battery life. This laptop is quite well reviewed.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"Celeron N2840",
+          "title":"cpu"
+        },
+        {
+          "desc":"An efficient dual CPU. Weak, but helps give a long battery life, and reduces the need for cooling.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics (Bay Trail)",
+          "title":"gpu"
+        },
+        {
+          "desc":"This iGPU can display your emails, facebooks, and Youtube. What it cannot do is play games.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"4GB",
+          "title":"ram"
+        },
+        {
+          "desc":"16GB eMMC ",
+          "title":"storage"
+        },
+        {
+          "desc":"11.6 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1366x768",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"2.7",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"9.5",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"3",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"0",
+          "title":"perfgames"
+        },
+        {
+          "desc":"4",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Chrome OS",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black, Blue",
+          "title":"colours"
+        },
+        {
+          "desc":"Good battery life",
+          "title":"pros"
+        },
+        {
+          "desc":"Weak, low resolution screen, TN panel, very limited storage",
+          "title":"cons"
+        },
+        {
+          "desc":"TN",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Matte",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"11.7\"",
+          "title":"length"
+        },
+        {
+          "desc":"8.6\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.8\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://www.dell.com/us/business/p/chromebook-11-3120/pd",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Dell Chromebook 11",
+      "objectId":"BwNkvOVaeF",
+      "order":4,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/Dell-Chromebook-11-3120-Review.147301.0.html",
+          "name":"Notebookcheck Review",
+          "rating":"81"
+        },
+        {
+          "link":"http://www.techradar.com/reviews/pc-mac/laptops-portable-pcs/dell-chromebook-11-2015-1284386/review",
+          "name":"TechRadar Review",
+          "rating":"90"
+        },
+        {
+          "link":"http://www.engadget.com/products/dell/chromebook/11/",
+          "name":"Engadget Review",
+          "rating":"78"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.988Z"
+    },
+    {
+      "category":"Chromebook",
+      "createdAt":"2015-11-30T02:11:30.958Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Toshiba_Chromebook2.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"270",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Toshiba-CB35-B3340-Chromebook-Celeron-HD-Screen/dp/B00N99FXIS/?tag=logicaincrem-20"
+            },
+            {
+              "price":"307",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3D1TS-000U-00023"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"A solid chromebook. Very well reviewd.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"Considered by some to be the best chromebook available for purchase. This unit has an IPS 1080p screen, which is phenomenal, considering its price! It has good battery life, but suffers from the same limited storage found in most chrome books. Recommended!",
+          "title":"longdesc"
+        },
+        {
+          "desc":"Celeron N2840",
+          "title":"cpu"
+        },
+        {
+          "desc":"An efficient dual CPU. Weak, but helps give a long battery life, and reduces the need for cooling.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics (Bay Trail)",
+          "title":"gpu"
+        },
+        {
+          "desc":"This iGPU can display your emails, facebooks, and Youtube. What it cannot do is play games.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"4GB",
+          "title":"ram"
+        },
+        {
+          "desc":"16GB eMMC ",
+          "title":"storage"
+        },
+        {
+          "desc":"13.3 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"3",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"7",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"4",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"0",
+          "title":"perfgames"
+        },
+        {
+          "desc":"4",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Chrome OS",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Silver",
+          "title":"colours"
+        },
+        {
+          "desc":"Excellent chromebook",
+          "title":"pros"
+        },
+        {
+          "desc":"Very limited storage",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS ",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Glossy",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"12.6\"",
+          "title":"length"
+        },
+        {
+          "desc":"8.4\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.8\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://us.toshiba.com/computers/laptops/chromebook/cb30-2hd/CB35-B3340",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Toshiba Chromebook 2",
+      "objectId":"pYuKXyZ22r",
+      "order":5,
+      "reviews":[
+        {
+          "link":"http://www.pcmag.com/article2/0,2817,2470486,00.asp",
+          "name":"PCMag Review",
+          "rating":""
+        },
+        {
+          "link":"http://www.cnet.com/products/toshiba-chromebook-2-review/2/",
+          "name":"CNET Review",
+          "rating":""
+        },
+        {
+          "link":"http://www.trustedreviews.com/toshiba-chromebook-2-review",
+          "name":"Trusted Reviews Review",
+          "rating":""
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.958Z"
+    },
+    {
+      "category":"Chromebook",
+      "createdAt":"2015-11-30T02:11:30.969Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Dell_Chromebook13.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"420",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834298929"
+            },
+            {
+              "price":"430",
+              "title":"Dell",
+              "url":"http://www.dell.com/us/business/p/chromebook-13-7310/pd"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Pricey, but beautiful chromebook.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"For those who want a full 1080p screen, and extremely good battery life. This is a pricey option for those looking for a chromebook, but it has pretty much everything, except for storage. ",
+          "title":"longdesc"
+        },
+        {
+          "desc":"Celeron 3205U",
+          "title":"cpu"
+        },
+        {
+          "desc":"A modest dual-core CPU, clocked at 1.5GHz. Decent performance, given the low power consumption.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics (Broadwell)",
+          "title":"gpu"
+        },
+        {
+          "desc":"This iGPU can display your emails, facebooks, and Youtube. What it cannot do is play games.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"4GB",
+          "title":"ram"
+        },
+        {
+          "desc":"16GB SSD ",
+          "title":"storage"
+        },
+        {
+          "desc":"13.3 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"3.2",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"13",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"5",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"0",
+          "title":"perfgames"
+        },
+        {
+          "desc":"4",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Chrome OS",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Excellent battery life",
+          "title":"pros"
+        },
+        {
+          "desc":"Pricey (for a chromebook), very limited storage",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Glossy",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"13.0\"",
+          "title":"length"
+        },
+        {
+          "desc":"9.0\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.7\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://www.dell.com/us/business/p/chromebook-13-7310/pd",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Dell Chromebook 13",
+      "objectId":"irYOwuLl8j",
+      "order":6,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/Dell-Chromebook-13-7310.152069.0.html",
+          "name":"Notebookcheck Review",
+          "rating":"82"
+        },
+        {
+          "link":"http://www.laptopmag.com/reviews/laptops/dell-chromebook-13",
+          "name":"Laptopmag Review",
+          "rating":"80"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.969Z"
+    },
+    {
+      "category":"Mainstream",
+      "createdAt":"2015-11-30T02:11:30.929Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Lenovo_Flex2_15.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"565",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Lenovo-15-6-Inch-Touchscreen-Laptop-59418271/dp/B00K6ZIL0K/?tag=logicaincrem-20"
+            },
+            {
+              "price":"570",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3D9SIA4P03FX9402"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Excellent for browsing and light computing.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"This full-sized 15\" laptop is a complete package, with large storage, full 1080p touchscreen, flexible chassis, good CPU... and for a very good price. Its biggest drawback is the limited battery life.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"Core i5-4210U",
+          "title":"cpu"
+        },
+        {
+          "desc":"Dual core, with hyperthreading. Mid-tier mobile performance, with good efiiciency.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics 4400",
+          "title":"gpu"
+        },
+        {
+          "desc":"A very weak iGPU. Suitable for LoL on the lowest settings, and also solitaire!",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"6GB",
+          "title":"ram"
+        },
+        {
+          "desc":"1TB 5400 HDD",
+          "title":"storage"
+        },
+        {
+          "desc":"15.6 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"5.5",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"4",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"1.25",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"1",
+          "title":"perfgames"
+        },
+        {
+          "desc":"6",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 8.1",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Great aesthetics, great features for the price",
+          "title":"pros"
+        },
+        {
+          "desc":"Slow HDD, mediocre battery life",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Glossy",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"15.0\"",
+          "title":"length"
+        },
+        {
+          "desc":"10.9\"",
+          "title":"width"
+        },
+        {
+          "desc":"1.1\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://shop.lenovo.com/us/en/laptops/lenovo/flex-series/flex-2-15/",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Lenovo Flex 2 15",
+      "objectId":"dLer6tWwfU",
+      "order":7,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/Lenovo-IdeaPad-Flex-2-15-Notebook-Review.123450.0.html",
+          "name":"Notebookcheck Review",
+          "rating":""
+        },
+        {
+          "link":"http://www.pcmag.com/article2/0,2817,2462391,00.asp",
+          "name":"PCMag Review",
+          "rating":"80"
+        },
+        {
+          "link":"http://www.laptopmag.com/reviews/laptops/lenovo-flex-2-15-inch",
+          "name":"Laptopmag Review",
+          "rating":"70"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.929Z"
+    },
+    {
+      "category":"Ultrabook",
+      "createdAt":"2015-11-30T02:11:30.961Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Asus_ZenbookUX305.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"620",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834232393"
+            },
+            {
+              "price":"620",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Zenbook-UX305FA-Laptop-Intel-Greyish/dp/B00SGS7ZH4/?tag=logicaincrem-20"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Thin, light, and decently priced.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"Extremely well-reviewed, this ultrabook is thin, light, has a great screen, an SSD, and a good CPU too. All that, for an outstandingly affordable price! Recommended!",
+          "title":"longdesc"
+        },
+        {
+          "desc":"Core M 5Y10c",
+          "title":"cpu"
+        },
+        {
+          "desc":"The Core M series of CPU are designed to be extremely power efficient, and thus they give longer battery life, and need less cooling, making the laptop lighter and thinner. Performance is a bit on the low side though, but still decent.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics 5300",
+          "title":"gpu"
+        },
+        {
+          "desc":"A very weak iGPU. Suitable for LoL on the lowest settings, and also solitaire!",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"8GB",
+          "title":"ram"
+        },
+        {
+          "desc":"256GB SSD",
+          "title":"storage"
+        },
+        {
+          "desc":"13.3 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"2.5",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"7",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"3.1",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"1",
+          "title":"perfgames"
+        },
+        {
+          "desc":"7",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 8.1",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Greyish Black. Brown",
+          "title":"colours"
+        },
+        {
+          "desc":"Good battery life, great price for an ultrabook",
+          "title":"pros"
+        },
+        {
+          "desc":"NA",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Matte",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"12.8\"",
+          "title":"length"
+        },
+        {
+          "desc":"8.1\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.5\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://store.asus.com/us/item/201502AM130000188",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Asus Zenbook UX305",
+      "objectId":"SDmYFC8A64",
+      "order":8,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/Asus-Zenbook-UX305-Subnotebook-Review.136543.0.html",
+          "name":"Notebookcheck Review",
+          "rating":""
+        },
+        {
+          "link":"http://www.techradar.com/reviews/pc-mac/laptops-portable-pcs/asus-zenbook-ux305-1264384/review",
+          "name":"Techradar Review",
+          "rating":"100"
+        },
+        {
+          "link":"http://www.laptopmag.com/reviews/laptops/asus-zenbook-ux305",
+          "name":"Laptopmag Review",
+          "rating":"80"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.961Z"
+    },
+    {
+      "category":"Gaming",
+      "createdAt":"2015-11-30T02:11:30.975Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Lenovo_Y40_80.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"709",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Lenovo-Y40-80-Laptop-i7-5500U-80FA001CUS/dp/B00SIMWIZW/?tag=logicaincrem-20"
+            },
+            {
+              "price":"800",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3D9SIA6R42NC3673"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Entry level gaming laptop.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"One of the cheapest options for a gaming laptop with a discrete GPU. Decent gaming capability for the price, but you will not be maxing out Crysis 3.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i7-5500U",
+          "title":"cpu"
+        },
+        {
+          "desc":"A mid-tier Broadwell dual core, with hyperthreading. Performance is mid-tier but power consumption is great!",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"R9 M275",
+          "title":"gpu"
+        },
+        {
+          "desc":"Entry-tier mobile gaming. Suitable for most mainstream titles, and low-mid settings.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"8GB",
+          "title":"ram"
+        },
+        {
+          "desc":"500GB SSHD",
+          "title":"storage"
+        },
+        {
+          "desc":"14 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"5",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"5.6",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"2.5",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"4",
+          "title":"perfgames"
+        },
+        {
+          "desc":"7",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 8",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Good gaming performance for the price",
+          "title":"pros"
+        },
+        {
+          "desc":"TN panel",
+          "title":"cons"
+        },
+        {
+          "desc":"TN",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Glossy",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"13.7\"",
+          "title":"length"
+        },
+        {
+          "desc":"9.8\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.9\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://shop.lenovo.com/us/en/laptops/lenovo/y-series/y40-80/",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Lenovo Y40-80",
+      "objectId":"c4u0ZgUlES",
+      "order":9,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/Lenovo-Y40-80.148833.0.html",
+          "name":"Notebookcheck Review",
+          "rating":""
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.975Z"
+    },
+    {
+      "category":"Mainstream/Gaming",
+      "createdAt":"2015-11-30T02:11:31.113Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Dell_Inspiron15.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"760",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Dell-Inspiron-i7559-763BLK-Full-HD-GeForce/dp/B015PYYDMQ/?tag=logicaincrem-20"
+            },
+            {
+              "price":"960",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3D9SIA8X53GN9799"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"A very well-balanced choice.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"Excellent all-rounder, for a great price. It has a mid-tier mobile GPU for mainstream games, an SSD and a good CPU for good all-round performance.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i5-6300HQ",
+          "title":"cpu"
+        },
+        {
+          "desc":"A quad-core Skylake CPU. Very good mobile performance.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"GTX 960M",
+          "title":"gpu"
+        },
+        {
+          "desc":"A solid mid-tier mobile GPU. Suitable for Dota 2, WoW, and other mainstream titles. You can also play the newest AAA released, but on low-mid settings.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"8GB",
+          "title":"ram"
+        },
+        {
+          "desc":"256GB SSD",
+          "title":"storage"
+        },
+        {
+          "desc":"15.6 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"5.7",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"5",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"2",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"5",
+          "title":"perfgames"
+        },
+        {
+          "desc":"9",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Very well balanced, great gaming for the price",
+          "title":"pros"
+        },
+        {
+          "desc":"NA",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Anti-glare",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"15.1\"",
+          "title":"length"
+        },
+        {
+          "desc":"10.4\"",
+          "title":"width"
+        },
+        {
+          "desc":"1.0\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://www.dell.com/us/business/p/inspiron-15-7559-laptop/pd",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Dell Inspiron 15 (i7559)",
+      "objectId":"Gps5rZSaMW",
+      "order":10,
+      "reviews":[
+        {
+          "link":"http://pcverge.com/dell-inspiron-i7559-763blk-15-6-full-hd-gaming-laptop-review/",
+          "name":"PCVerge Review",
+          "rating":""
+        },
+        {
+          "link":"http://techforpennies.com/dell-inspiron-i7559-763blk-review/",
+          "name":"Tech for pennies Review",
+          "rating":"80"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:31.113Z"
+    },
+    {
+      "category":"Mainstream/Ultrabook",
+      "createdAt":"2015-11-30T02:11:30.924Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Dell_XPS13.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"890",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Dell-XPS9350-673SLV-Generation-Microsoft-Signature/dp/B015PYYOZC/?tag=logicaincrem-20"
+            },
+            {
+              "price":"890",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834298768"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Very well reviewed ultraportable.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"The Dell XPS line is well established as a professional choice with a good balance between features, aesthetics, quality, and price. This is the latest iteration, with a great small-bezel screen, a weight and thinness that qualifies it for ultrabook status, and very good general performance. Storage is a bit limited at 128GB.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i5-6200U",
+          "title":"cpu"
+        },
+        {
+          "desc":"Dual core Skylake, with hyperthreading. Respectable performance, and good power consumption.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics 520",
+          "title":"gpu"
+        },
+        {
+          "desc":"This class of iGPU is modestly decent at gaming. Better than the previous generation iGPUs, but not as good as discrete chips. Suitable for mainstream titles at low settings.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"4GB",
+          "title":"ram"
+        },
+        {
+          "desc":"128GB SSD",
+          "title":"storage"
+        },
+        {
+          "desc":"13.3 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"2.8",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"7.5",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"2.5",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"2",
+          "title":"perfgames"
+        },
+        {
+          "desc":"7",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Aluminium",
+          "title":"colours"
+        },
+        {
+          "desc":"Good battery life",
+          "title":"pros"
+        },
+        {
+          "desc":"Limited storage",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Matte",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"12.0\"",
+          "title":"length"
+        },
+        {
+          "desc":"7.9\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.6\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://www.dell.com/us/business/p/xps-13-9350-laptop/pd",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Dell XPS 13 (9350)",
+      "objectId":"xjZQ5zI76c",
+      "order":11,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/Dell-XPS-13-9350-InfinityEdge-Ultrabook-Review.153376.0.html",
+          "name":"Notebookcheck Review",
+          "rating":"89"
+        },
+        {
+          "link":"http://www.laptopmag.com/reviews/laptops/dell-chromebook-13",
+          "name":"Laptopmag Review",
+          "rating":""
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.924Z"
+    },
+    {
+      "category":"Gaming",
+      "createdAt":"2015-11-30T02:11:30.923Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Acer_AspireV15Nitro.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"900",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Acer-VN7-592G-71ZL-15-6-inch-Notebook-Windows/dp/B015XBKY6U/?tag=logicaincrem-20"
+            },
+            {
+              "price":"950",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3D9SIA3FA3JN3125"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Affordable mid-tier mobile gaming.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"This is one of the most affordable options if you want a combination of excellent mobile CPU with a good mid-tier GPU. As a bonus, it has a very classy aesthetic for a gaming laptop, unlike the aggressive designs of the competition. Has slow storage and mediocre battery though.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i7-6700HQ",
+          "title":"cpu"
+        },
+        {
+          "desc":"A quad-core Skylake, with hyperthreading. Great mobile performance!",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"GTX 960M",
+          "title":"gpu"
+        },
+        {
+          "desc":"A solid mid-tier mobile GPU. Suitable for Dota 2, WoW, and other mainstream titles. You can also play the newest AAA released, but on low-mid settings.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"8GB",
+          "title":"ram"
+        },
+        {
+          "desc":"1TB 5400 HDD",
+          "title":"storage"
+        },
+        {
+          "desc":"15.6 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"5.1",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"4.5",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"1",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"5",
+          "title":"perfgames"
+        },
+        {
+          "desc":"8",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Decently priced",
+          "title":"pros"
+        },
+        {
+          "desc":"Slow HDD, mediocre battery life",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Anti-glare",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"15.4\"",
+          "title":"length"
+        },
+        {
+          "desc":"10.4\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.9\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://us.acer.com/ac/en/US/content/series/aspirevnitro",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Acer Aspire V15 Nitro ",
+      "objectId":"7AKioPZDDG",
+      "order":12,
+      "reviews":[
+        {
+          "link":"https://www.topg4u.com/acer-aspire-v15-nitro-vn7-592g-71zl-review/",
+          "name":"Topg4u Review",
+          "rating":"84"
+        },
+        {
+          "link":"http://techforpennies.com/acer-aspire-v15-nitro-vn7-592g-71zl-review/",
+          "name":"Tech for pennies Review",
+          "rating":"80"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.923Z"
+    },
+    {
+      "category":"Gaming",
+      "createdAt":"2015-11-30T02:11:31.107Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Lenovo_Y700_15.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"900",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834319910"
+            },
+            {
+              "price":"1090",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Lenovo-15-6-Inch-Gaming-Windows-80NV0029US/dp/B014MIBWIO/?tag=logicaincrem-20"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Stylish and powerful.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"A good mid-tier gaming laptop, with a more aggressive interior design. Suitable for mainsteam games, and has great all-round performance too, thanks to the great mobile CPU and SSD.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i7-6700HQ",
+          "title":"cpu"
+        },
+        {
+          "desc":"A quad-core Skylake, with hyperthreading. Great mobile performance!",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"GTX 960M",
+          "title":"gpu"
+        },
+        {
+          "desc":"A solid mid-tier mobile GPU. Suitable for Dota 2, WoW, and other mainstream titles. You can also play the newest AAA released, but on low-mid settings.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"8GB",
+          "title":"ram"
+        },
+        {
+          "desc":"256GB SSD",
+          "title":"storage"
+        },
+        {
+          "desc":"15.6 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"5.7",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"4.5",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"2.75",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"5",
+          "title":"perfgames"
+        },
+        {
+          "desc":"10",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Great general performance",
+          "title":"pros"
+        },
+        {
+          "desc":"Mediocre battery life",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Anti-glare",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"15.2\"",
+          "title":"length"
+        },
+        {
+          "desc":"10.9\"",
+          "title":"width"
+        },
+        {
+          "desc":"1.0\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://shop.lenovo.com/us/en/laptops/ideapad/y700-series/y700-15-inch/",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Lenovo Y700 15",
+      "objectId":"9E2kahOB4h",
+      "order":13,
+      "reviews":[
+        {
+          "link":"http://www.notebookreview.com/feature/first-look-lenovo-ideapad-y700-gaming-notebook-preview/",
+          "name":"Notebookreview Review",
+          "rating":""
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:31.107Z"
+    },
+    {
+      "category":"Mainstream/Ultrabook",
+      "createdAt":"2015-11-30T02:11:30.937Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Dell_XPS13.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"908",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Dell-9343-2727SLV-128GB-Signature-Laptop/dp/B00W4LBHE6/?tag=logicaincrem-20"
+            },
+            {
+              "price":"930",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3D9SIA7AB3AS9233"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Very well reviewed ultraportable.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"The Dell XPS line is well established as a professional choice with a good balance between features, aesthetics, quality, and price. This is a model from the previous generation, with a slightly worse CPU and iGPU, but better battery life. Storage is a bit limited at 128GB.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i5 5200U",
+          "title":"cpu"
+        },
+        {
+          "desc":"A mid-tier Broadwell dual core, with hyperthreading. Performance is mid-tier but power consumption is great!",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics 5500",
+          "title":"gpu"
+        },
+        {
+          "desc":"This class of iGPU is modestly decent at gaming. Better than the previous generation iGPUs, but not as good as discrete chips. Suitable for mainstream titles at low settings.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"4GB",
+          "title":"ram"
+        },
+        {
+          "desc":"128GB SSD",
+          "title":"storage"
+        },
+        {
+          "desc":"13.3 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"2.6",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"9.6",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"2.4",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"2",
+          "title":"perfgames"
+        },
+        {
+          "desc":"7",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Silver",
+          "title":"colours"
+        },
+        {
+          "desc":"Good battery life",
+          "title":"pros"
+        },
+        {
+          "desc":"Limited storage",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Glossy",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"11.9\"",
+          "title":"length"
+        },
+        {
+          "desc":"7.8\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.5\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://www.dell.com/us/p/xps-13-9343-laptop/pd?oc=dncwt5128b",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Dell XPS 13 (9343)",
+      "objectId":"rLzrc0wKqy",
+      "order":14,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/Dell-XPS-13-9343-Touchscreen-Ultrabook-Review.135817.0.html",
+          "name":"Notebookcheck Review",
+          "rating":"86"
+        },
+        {
+          "link":"http://www.trustedreviews.com/dell-xps-13-2015-review",
+          "name":"Trusted Reviews Review",
+          "rating":"90"
+        },
+        {
+          "link":"http://www.pcadvisor.co.uk/review/laptops/dell-xps-13-9343-review-dell-is-making-laptops-sexy-again-3605875/",
+          "name":"PC Advisor Review",
+          "rating":""
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.937Z"
+    },
+    {
+      "category":"Gaming",
+      "createdAt":"2015-11-30T02:11:30.953Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Dell_Alienware15R2.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"1048",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834298762"
+            },
+            {
+              "price":"1100",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Alienware-AW15R2-1546SLV-Laptop-Generation-GeForce/dp/B015P3SNN2/?tag=logicaincrem-20"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Aggressive gamer aesthetic, good gaming performance.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"Alienware gear is famous for its hyper aggressive design, aimed squarely at gaming gamers who game. This unit balances a sweet GPU with decent-ish battery life, at a surprisingly good price. Watch the weight though.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i5-6300HQ",
+          "title":"cpu"
+        },
+        {
+          "desc":"A quadcore Skylake CPU. The performance is good, though not as good as the more powerful i7 options.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"GTX 965M",
+          "title":"gpu"
+        },
+        {
+          "desc":"Somewhere between high-end and mid-tier, this mobile GPU is a good choice for those who want good gaming performance without paying top dollar for it. ",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"8GB",
+          "title":"ram"
+        },
+        {
+          "desc":"1TB 7200 HDD",
+          "title":"storage"
+        },
+        {
+          "desc":"15.6 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"7.1",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"5.7",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"2.5",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"6",
+          "title":"perfgames"
+        },
+        {
+          "desc":"8",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Silver",
+          "title":"colours"
+        },
+        {
+          "desc":"Good gaming performance for the price",
+          "title":"pros"
+        },
+        {
+          "desc":"Heavy",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Anti-glare",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"15.2\"",
+          "title":"length"
+        },
+        {
+          "desc":"10.6\"",
+          "title":"width"
+        },
+        {
+          "desc":"1.3\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"2.1MP (1920x1080)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://www.dell.com/us/p/alienware-15/pd",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Dell Alienware 15 R2",
+      "objectId":"r35DRwOnRQ",
+      "order":15,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/Alienware-15-R2-Notebook-Review.153808.0.html",
+          "name":"Notebookcheck Review",
+          "rating":"87"
+        },
+        {
+          "link":"http://www.gaminglaptopsjunky.com/alienware-15-r2-review-skylake-late-2015/",
+          "name":"Gaminglaptopsjunky Review",
+          "rating":""
+        },
+        {
+          "link":"http://livetrendlaptops.com/dell-alienware-aw15r2-1546slv-review/",
+          "name":"Livetrendlaptops Review",
+          "rating":""
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.953Z"
+    },
+    {
+      "category":"Gaming",
+      "createdAt":"2015-11-30T02:11:30.956Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Gigabyte_P55Kv4.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"1100",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Gigabyte-P55K-BWCUK-15-6-inch-i7-5700HQ-Computer/dp/B012DT2MTC/?tag=logicaincrem-20"
+            },
+            {
+              "price":"1100",
+              "title":"Gigabyte",
+              "url":"http://www.gigabyte.us/products/product-page.aspx?pid=5434"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Very good mobile gaming performance for price.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"A full-fledged gaming laptop, but with a not-so-aggressive design. Very good gaming performance for the price. The battery life and weight are somewhat reasonable for a gaming laptop, but they are definitely not great.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i7-5700HQ",
+          "title":"cpu"
+        },
+        {
+          "desc":"A quad-core Broadwell CPU, with hyperthreading. It is an older generation CPU, but the mobile performance is still great.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"GTX 965M",
+          "title":"gpu"
+        },
+        {
+          "desc":"Somewhere between high-end and mid-tier, this mobile GPU is a good choice for those who want good gaming performance without paying top dollar for it. ",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"8GB",
+          "title":"ram"
+        },
+        {
+          "desc":"1TB 7200 HDD",
+          "title":"storage"
+        },
+        {
+          "desc":"15.6 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"5.5",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"4",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"2.6",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"6",
+          "title":"perfgames"
+        },
+        {
+          "desc":"9",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Good gaming performance for the price",
+          "title":"pros"
+        },
+        {
+          "desc":"Mediocre battery life",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Anti-glare",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"14.9\"",
+          "title":"length"
+        },
+        {
+          "desc":"10.6\"",
+          "title":"width"
+        },
+        {
+          "desc":"1.1\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"NA",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://www.gigabyte.com/products/product-page.aspx?pid=5457#kf",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Gigabyte P55K v4",
+      "objectId":"cYXJuMLoxK",
+      "order":16,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/Gigabyte-P55-V4.146346.0.html",
+          "name":"Notebookcheck Review",
+          "rating":"81"
+        },
+        {
+          "link":"http://www.pcadvisor.co.uk/review/laptops/gigabyte-p55-v4-gaming-laptop-review-3623332/",
+          "name":"PC Advisor Review",
+          "rating":"70"
+        },
+        {
+          "link":"http://www.hardwarezone.com.my/review-gigabyte-p55w-v4-new-looks-same-good-performance",
+          "name":"Hardware Zone Review",
+          "rating":"85"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.956Z"
+    },
+    {
+      "category":"Ultrabook",
+      "createdAt":"2015-11-30T02:11:30.974Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Apple_MacBook2015.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"1150",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Apple-MacBook-MJY32LL-12-Inch-Display/dp/B00VSB0CB2/?tag=logicaincrem-20"
+            },
+            {
+              "price":"1300",
+              "title":"Apple",
+              "url":"http://www.apple.com/shop/buy-mac/macbook"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"A brilliant, but pricey laptop.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"This laptop distinguishes itself by combining very light weight, a great screen, and good battery life in a single package. This unit is well reviewed, but the price is quite high.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"Core M 5Y70",
+          "title":"cpu"
+        },
+        {
+          "desc":"The Core M series of CPU are designed to be extremely power efficient, and thus they give longer battery life, and need less cooling, making the laptop lighter and thinner. Performance is a bit on the low side though, but still decent.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics 5300",
+          "title":"gpu"
+        },
+        {
+          "desc":"This class of iGPU is modestly decent at gaming. Better than the previous generation iGPUs, but not as good as discrete chips. Suitable for mainstream titles at low settings.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"8GB",
+          "title":"ram"
+        },
+        {
+          "desc":"256GB SSD",
+          "title":"storage"
+        },
+        {
+          "desc":"12 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"2304x1440",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"2",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"7.5",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"2.5",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"2",
+          "title":"perfgames"
+        },
+        {
+          "desc":"7",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"OS X",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Silver, Gold, Grey",
+          "title":"colours"
+        },
+        {
+          "desc":"Good battery life, great screen",
+          "title":"pros"
+        },
+        {
+          "desc":"Pricey",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Glossy",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"11.0\"",
+          "title":"length"
+        },
+        {
+          "desc":"7.7\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.5\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"0.3MP (640x480)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://www.apple.com/macbook/",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Apple MacBook 2015",
+      "objectId":"s9k7WhvAZ2",
+      "order":17,
+      "reviews":[
+        {
+          "link":"http://www.trustedreviews.com/12-inch-macbook-2015-review-screen-quality-performance-page-2",
+          "name":"Trustedreviews Review",
+          "rating":"80"
+        },
+        {
+          "link":"http://www.notebookcheck.net/Apple-MacBook-12-Early-2015-1-1-GHz-Review.143178.0.html",
+          "name":"NotebookCheck Review",
+          "rating":"88"
+        },
+        {
+          "link":"www.engadget.com/products/apple/macbook/early-2015/",
+          "name":"Engadget Review",
+          "rating":"90"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.974Z"
+    },
+    {
+      "category":"Mainstream/Ultrabook",
+      "createdAt":"2015-11-30T02:11:30.967Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/HP_Spectrex360.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"1200",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/HP-Spectre-2---1-Touch-Screen/dp/B00UCENG14/?tag=logicaincrem-20"
+            },
+            {
+              "price":"1260",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3D9SIA1G53FR6183"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Powerful ultrabook, but very pricey!",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"A very expensive ultrabook option. Great battery life, general performance, and a flexible form factor that allows it to be used as a tablet. Well reviewed, but pricey!",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i5-6200U",
+          "title":"cpu"
+        },
+        {
+          "desc":"Dual core Skylake, with hyperthreading. Respectable performance, and good power consumption.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"HD Graphics 520",
+          "title":"gpu"
+        },
+        {
+          "desc":"This class of iGPU is modestly decent at gaming. Better than the previous generation iGPUs, but not as good as discrete chips. Suitable for mainstream titles at low settings.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"8GB",
+          "title":"ram"
+        },
+        {
+          "desc":"256GB SSD",
+          "title":"storage"
+        },
+        {
+          "desc":"13.3 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"3.3",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"9",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"2.5",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"3",
+          "title":"perfgames"
+        },
+        {
+          "desc":"8",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 8.1",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Silver",
+          "title":"colours"
+        },
+        {
+          "desc":"Good battery life",
+          "title":"pros"
+        },
+        {
+          "desc":"Pricey",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Glossy",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"12.8\"",
+          "title":"length"
+        },
+        {
+          "desc":"8.6\"",
+          "title":"width"
+        },
+        {
+          "desc":"0.6\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"2.1MP (1920x1080)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://store.hp.com/us/en/mdp/Laptops/spectre-x360-211501--1",
+          "title":"officialsite"
+        }
+      ],
+      "name":"HP Spectre x360",
+      "objectId":"eDchXT6vZl",
+      "order":18,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/HP-Spectre-13-x360-Convertible-Review.144228.0.html",
+          "name":"Notebookcheck Review",
+          "rating":"84"
+        },
+        {
+          "link":"http://www.techradar.com/reviews/pc-mac/laptops-portable-pcs/laptops-and-netbooks/hp-spectre-x360-1297082/review",
+          "name":"Techradar Review",
+          "rating":"90"
+        },
+        {
+          "link":"http://www.laptopmag.com/reviews/laptops/hp-spectre-x360-13t",
+          "name":"Laptopmag Review",
+          "rating":"80"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.967Z"
+    },
+    {
+      "category":"Gaming",
+      "createdAt":"2015-11-30T02:11:31.112Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Gigabyte_P55Wv4.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"1330",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/GIGABYTE-P55W-BW1-Broadwell-i7-5700HQ-Computer/dp/B00ZV7FUK2/?tag=logicaincrem-20"
+            },
+            {
+              "price":"1400",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834233096"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"High-end mobile gaming starts here.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"Expensive, powerful, mediocre battery life? Yes, it is a gaming laptop alright! This is one of the more affordable machines with a 970M inside. Expect to play all modern titles, but not on maximum settings. ",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i7-5700HQ",
+          "title":"cpu"
+        },
+        {
+          "desc":"A quad-core Broadwell CPU, with hyperthreading. It is an older generation CPU, but the mobile performance is still great.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"GTX 970M",
+          "title":"gpu"
+        },
+        {
+          "desc":"A very good mobile GPU. Expect to play most titles on high settings, but not on ultra.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"8GB",
+          "title":"ram"
+        },
+        {
+          "desc":"128GB SSD, 1TB HDD",
+          "title":"storage"
+        },
+        {
+          "desc":"15.6 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"5.5",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"3.8",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"1.5",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"7",
+          "title":"perfgames"
+        },
+        {
+          "desc":"10",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 8.1",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Aluminium Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Great general performance, great gaming performance",
+          "title":"pros"
+        },
+        {
+          "desc":"Mediocre battery life",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Anti-glare",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"14.9\"",
+          "title":"length"
+        },
+        {
+          "desc":"10.6\"",
+          "title":"width"
+        },
+        {
+          "desc":"1.1\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://www.gigabyte.com/products/product-page.aspx?pid=5458#kf",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Gigabyte P55W v4",
+      "objectId":"u53uYZri6b",
+      "order":19,
+      "reviews":[
+        {
+          "link":"http://www.notebookcheck.net/Gigabyte-P55W-V4-Notebook-Review.145911.0.html",
+          "name":"Notebookcheck Review",
+          "rating":"85"
+        },
+        {
+          "link":"http://www.computershopper.com/laptops/reviews/gigabyte-p55w-v4",
+          "name":"Computer shopper Review",
+          "rating":"70"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:31.112Z"
+    },
+    {
+      "category":"Gaming",
+      "createdAt":"2015-11-30T02:11:30.948Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Dell_Alienware17R3.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"1400",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/Alienware-17-3-Inch-Gaming-Laptop-GeForce/dp/B00XQXZ364/?tag=logicaincrem-20"
+            },
+            {
+              "price":"1750",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834298763"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Aggressive gamer aesthetic, great gaming performance.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"Equipped with a powerful mobile GPU, this machine has aggressive performance to match its aggressive design. It is also equipped with a 4K (UHD) screen, which is a rarity in laptops. It has excellent performance in games, but it is heavy with poor battery life. Is it pricey? Yes, very... but scroll down and compare.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i7 4710HQ ",
+          "title":"cpu"
+        },
+        {
+          "desc":"An older Haswell quadcore, with hyperthreading. Despite that fact that it is two generations old, this CPU still pack a powerful punch. A powerful mobile punch, that is.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"GTX 980M",
+          "title":"gpu"
+        },
+        {
+          "desc":"A top-tier mobile GPU. Expect to be able to play all the AAA titles on high settings, and that includes games like Crysis 3 and Witcher 3.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"8GB",
+          "title":"ram"
+        },
+        {
+          "desc":"1TB HDD",
+          "title":"storage"
+        },
+        {
+          "desc":"17.3 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"3840x2160",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"8.3",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"3",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"1",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"8",
+          "title":"perfgames"
+        },
+        {
+          "desc":"10",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Silver",
+          "title":"colours"
+        },
+        {
+          "desc":"Great gaming performance, excellent screen",
+          "title":"pros"
+        },
+        {
+          "desc":"Very heavy, poor battery life",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Anti-glare",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"16.9\"",
+          "title":"length"
+        },
+        {
+          "desc":"11.5\"",
+          "title":"width"
+        },
+        {
+          "desc":"1.4\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1MP (1280x720)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://www.dell.com/us/p/alienware-17-r3/pd?oc=dkcwg04bc\u0026model_id=alienware-17-r3",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Dell Alienware 17 R3",
+      "objectId":"qmKNIY21bc",
+      "order":20,
+      "reviews":[
+        {
+          "link":"http://thewirecutter.com/reviews/best-gaming-laptop/",
+          "name":"The Wirecutter Review",
+          "rating":""
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.948Z"
+    },
+    {
+      "category":"Gaming",
+      "createdAt":"2015-11-30T02:11:30.970Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Asus_ROGG751JY.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"1500",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/G751JY-WH71-WX-17-Inch-Gaming-GeForce/dp/B015QZPRW4/?tag=logicaincrem-20"
+            },
+            {
+              "price":"1500",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834232849"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Powerful (and expensive) mobile gaming. ",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"Packing a powerful 980M inside, this is a laptop that is capable of giving desktop-class gaming performance. Yes, it is expensive, it is bulky, and it is heavy, but if you want desktop performance, you start here.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i7-4720HQ",
+          "title":"cpu"
+        },
+        {
+          "desc":"An older Haswell quadcore, with hyperthreading. Despite that fact that it is two generations old, this CPU still pack a powerful punch. A powerful mobile punch, that is.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"GTX 980M",
+          "title":"gpu"
+        },
+        {
+          "desc":"A top-tier mobile GPU. Expect to be able to play all the AAA titles on high settings, and that includes games like Crysis 3 and Witcher 3.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"16GB",
+          "title":"ram"
+        },
+        {
+          "desc":"128GB SSD, 1TB HDD",
+          "title":"storage"
+        },
+        {
+          "desc":"17.3 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"8.4",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"4",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"2",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"8",
+          "title":"perfgames"
+        },
+        {
+          "desc":"10",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Great general performance, great gaming performance",
+          "title":"pros"
+        },
+        {
+          "desc":"Very heavy, mediocre battery life",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Matte",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"16.4\"",
+          "title":"length"
+        },
+        {
+          "desc":"12.5\"",
+          "title":"width"
+        },
+        {
+          "desc":"1.7\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1.2MP (1280x960)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://store.asus.com/us/item/201510AM160007800/A20422",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Asus ROG G751JY",
+      "objectId":"FzudNMUjCu",
+      "order":21,
+      "reviews":[
+        {
+          "link":"http://www.digitaltrends.com/laptop-reviews/asus-rog-g751jy-dh71-review/",
+          "name":"Digitaltrends Review",
+          "rating":""
+        },
+        {
+          "link":"http://www.laptopmag.com/reviews/laptops/asus-g751jy",
+          "name":"Laptopmag Review",
+          "rating":"80"
+        },
+        {
+          "link":"http://www.notebookcheck.net/Asus-G751JY-DH71.128222.0.html",
+          "name":"Notebookcheck Review",
+          "rating":"83"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.970Z"
+    },
+    {
+      "category":"Gaming",
+      "createdAt":"2015-11-30T02:11:30.980Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/Asus_ROGG752VT.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"1529",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834232766"
+            },
+            {
+              "price":"1714",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/dp/B01578ZN0Q/?tag=logicaincrem-20"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"An incredibly popular gaming laptop",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"An small evolution over the G751 in terms of internal cooling and CPU. Great performance, but it is very heavy and has terrible battery life.",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i7-6700HQ",
+          "title":"cpu"
+        },
+        {
+          "desc":"A quad-core Skylake, with hyperthreading. Great mobile performance!",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"GTX 970M",
+          "title":"gpu"
+        },
+        {
+          "desc":"A very good mobile GPU. Expect to play most titles on high settings, but not on ultra.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"16GB",
+          "title":"ram"
+        },
+        {
+          "desc":"128GB SSD, 1TB HDD",
+          "title":"storage"
+        },
+        {
+          "desc":"17.3 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"8.8",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"2.5",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"1",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"7",
+          "title":"perfgames"
+        },
+        {
+          "desc":"10",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Silver",
+          "title":"colours"
+        },
+        {
+          "desc":"Great general performance, great gaming performance",
+          "title":"pros"
+        },
+        {
+          "desc":"Very heavy, poor battery life",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Matte",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"16.4\"",
+          "title":"length"
+        },
+        {
+          "desc":"12.7\"",
+          "title":"width"
+        },
+        {
+          "desc":"1.5\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"1.2MP (1280x960)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://store.asus.com/us/item/201510AM090006012/A38824",
+          "title":"officialsite"
+        }
+      ],
+      "name":"Asus ROG G752VT",
+      "objectId":"h9vzeGEEX8",
+      "order":22,
+      "reviews":[
+        {
+          "link":"http://www.digitaltrends.com/laptop-reviews/asus-rog-g752vt-dh72-review/",
+          "name":"Digitaltrends Review",
+          "rating":""
+        },
+        {
+          "link":"http://www.notebookcheck.net/Asus-ROG-G752VT-Notebook-Review.153805.0.html",
+          "name":"Notebookcheck Review",
+          "rating":"89"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.980Z"
+    },
+    {
+      "category":"Extreme gaming",
+      "createdAt":"2015-11-30T02:11:31.110Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/MSI_GT80S.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"2849",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/MSI-TitanSLI-012-i7-6820HK-2x128GB-Blu-Ray/dp/B0184V4YPI/?tag=logicaincrem-20"
+            },
+            {
+              "price":"2800",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834152984"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"Insane price, insane performance.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"You would think that no one would be crazy enough to make an 18-inch laptop that weighs a full ten pounds. You would say that no one will ever put a full mechanical keyboard in a laptop. You might even believe that putting in TWO discrete GPUs in a mobile form factor will never, ever happen. And you would be wrong!",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i7-6820HK",
+          "title":"cpu"
+        },
+        {
+          "desc":"This Skylake quadcore has hyperthreading, and it can be overclocked. Yes, an overclockable mobile CPU.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"GTX 970M SLI",
+          "title":"gpu"
+        },
+        {
+          "desc":"Not many people are brave enough to SLI two high-end GPUs and then put them in a laptop. Yes, your battery life is laughable, but your gaming performance is fantastic!",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"16GB",
+          "title":"ram"
+        },
+        {
+          "desc":"256GB SSD",
+          "title":"storage"
+        },
+        {
+          "desc":"18.4 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"9.9",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"2.5",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"1",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"9",
+          "title":"perfgames"
+        },
+        {
+          "desc":"10",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Great general performance, exceptional gaming performance",
+          "title":"pros"
+        },
+        {
+          "desc":"Very heavy, poor battery life",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Matte",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"18.0\"",
+          "title":"length"
+        },
+        {
+          "desc":"13.0\"",
+          "title":"width"
+        },
+        {
+          "desc":"1.9\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"2.1MP (1920x1080)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://us.msi.com/product/notebook/GT80S-TITAN-SLI-6th-Gen-GTX-970M-SLI.html#hero-overview",
+          "title":"officialsite"
+        }
+      ],
+      "name":"MSI GT80S (SLI 970M)",
+      "objectId":"KLlrpoSayS",
+      "order":23,
+      "reviews":[
+        {
+          "link":"http://www.laptopmag.com/reviews/laptops/msi-gt80-titan-sli-gaming-laptop",
+          "name":"Laptopmag Review",
+          "rating":"90"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:31.110Z"
+    },
+    {
+      "category":"Extreme gaming",
+      "createdAt":"2015-11-30T02:11:30.955Z",
+      "currency":"USD",
+      "image":"assets/img/laptops/model/MSI_GT80S.png",
+      "misc":[
+        {
+          "desc":[
+            {
+              "price":"3399",
+              "title":"Newegg",
+              "url":"http://www.tkqlhce.com/click-5961731-10440897?sid=0\u0026amp;url=http%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3FItem%3DN82E16834152983"
+            },
+            {
+              "price":"3996",
+              "title":"Amazon",
+              "url":"http://www.amazon.com/MSI-GT80S-TitanSLI-002-i7-6820HK-Kingston-Windows10/dp/B017JHPJPW/?tag=logicaincrem-20"
+            }
+          ],
+          "title":"prices"
+        },
+        {
+          "desc":"In a word: Monstrous.",
+          "title":"shortdesc"
+        },
+        {
+          "desc":"The eye-watering price is not for the faint of heart (or those with shallower pockets), but this is a mobile machine that can run Crysis 3 on 1080p on ultra settings. Please note the large size, poor battery life, and heavy weight. Once you are done noting that, you can also note the best-in-class performance in every other metric. ",
+          "title":"longdesc"
+        },
+        {
+          "desc":"i7-6820HK",
+          "title":"cpu"
+        },
+        {
+          "desc":"This Skylake quadcore has hyperthreading, and it can be overclocked. Yes, an overclockable mobile CPU.",
+          "title":"cpudescription"
+        },
+        {
+          "desc":"GTX 980M SLI",
+          "title":"gpu"
+        },
+        {
+          "desc":"Taking the two best mobile GPUs, and putting them tegether in a mobile form factor. It is insane. You should not do it. And yet here we are. This is one of the best mobile gaming setups currently available.",
+          "title":"gpudescription"
+        },
+        {
+          "desc":"32GB",
+          "title":"ram"
+        },
+        {
+          "desc":"512GB SSD",
+          "title":"storage"
+        },
+        {
+          "desc":"18.4 inches",
+          "title":"screensize"
+        },
+        {
+          "desc":"1920x1080",
+          "title":"screenresolution"
+        },
+        {
+          "desc":"9.9",
+          "title":"weightlbs"
+        },
+        {
+          "desc":"2.5",
+          "title":"batterywifi"
+        },
+        {
+          "desc":"1",
+          "title":"batteryheavy"
+        },
+        {
+          "desc":"10",
+          "title":"perfgames"
+        },
+        {
+          "desc":"10",
+          "title":"perfgeneral"
+        },
+        {
+          "desc":"Windows 10",
+          "title":"operatingsystem"
+        },
+        {
+          "desc":"Black",
+          "title":"colours"
+        },
+        {
+          "desc":"Great general performance, exceptional gaming performance",
+          "title":"pros"
+        },
+        {
+          "desc":"Very heavy, poor battery life",
+          "title":"cons"
+        },
+        {
+          "desc":"IPS",
+          "title":"paneltypeipsortn"
+        },
+        {
+          "desc":"Matte",
+          "title":"panelcoatingglossyantiglarematte"
+        },
+        {
+          "desc":"18.0\"",
+          "title":"length"
+        },
+        {
+          "desc":"13.0\"",
+          "title":"width"
+        },
+        {
+          "desc":"1.9\"",
+          "title":"thickness"
+        },
+        {
+          "desc":"2.1MP (1920x1080)",
+          "title":"webcamquality"
+        },
+        {
+          "desc":"http://us.msi.com/product/notebook/GT80-Titan-SLI-GTX-980M-SLI.html#hero-overview",
+          "title":"officialsite"
+        }
+      ],
+      "name":"MSI GT80S (SLI 980M)",
+      "objectId":"sPsMugsiew",
+      "order":24,
+      "reviews":[
+        {
+          "link":"http://www.laptopmag.com/reviews/laptops/msi-gt80-titan-sli-gaming-laptop",
+          "name":"Laptopmag Review",
+          "rating":"90"
+        },
+        {
+          "link":"http://gadgets.ndtv.com/laptops/reviews/msi-gt80-2qe-titan-sli-review-a-monster-on-your-desk-749714",
+          "name":"Gadgets360 Review",
+          "rating":"80"
+        },
+        {
+          "link":"http://asia.pcmag.com/msi-gt80-titan-sli/2928/review/msi-gt80-titan-sli",
+          "name":"PCmag Review",
+          "rating":"70"
+        }
+      ],
+      "type":"laptop",
+      "updatedAt":"2015-11-30T02:11:30.955Z"
+    }
+  ]
+}
