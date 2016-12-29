@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Laptop\Batttery.cs" />
+    <Compile Include="Laptop\CPU.cs" />
+    <Compile Include="Laptop\Laptop.cs" />
+    <Compile Include="Laptop\outside.cs" />
+    <Compile Include="Laptop\Screen.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
