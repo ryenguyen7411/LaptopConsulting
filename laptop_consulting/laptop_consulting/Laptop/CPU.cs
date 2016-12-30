@@ -10,6 +10,6 @@ namespace Laptop_Resuilt.Laptop
     {
         public string _decriptionCPU;
         public string _decriptionGPU;
-        public  int _ram
- }
+        public int _ram;
+    }
 }

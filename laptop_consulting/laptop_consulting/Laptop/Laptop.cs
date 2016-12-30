@@ -59,12 +59,12 @@ namespace Laptop_Resuilt.Laptop
         {
             get
             {
-                return _reviews
+                return _reviews;
             }
 
             set
             {
-                _reviews= value;
+                _reviews = value;
             }
         }
 
@@ -94,7 +94,7 @@ namespace Laptop_Resuilt.Laptop
             }
         }
 
-        public  string Cons
+        public string Cons
         {
             get
             {
@@ -103,7 +103,7 @@ namespace Laptop_Resuilt.Laptop
 
             set
             {
-                _cons= value;
+                _cons = value;
             }
         }
 
