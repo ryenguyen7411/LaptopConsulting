@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MaterialSkin.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,11 +11,16 @@ using System.Windows.Forms;
 
 namespace laptop_consulting
 {
-    public partial class MainForm : Form
+    public partial class MainForm : MaterialForm
     {
         public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void materialRadioButton12_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
