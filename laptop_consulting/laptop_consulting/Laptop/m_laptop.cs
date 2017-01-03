@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Laptop_Resuilt.Laptop
+﻿namespace Laptop_Resuilt.Laptop
 {
     class m_laptop
     {
-      
         public string _name;
         public outside _outside;
         public GPU _gpu;
@@ -19,6 +12,13 @@ namespace Laptop_Resuilt.Laptop
         public string _pros;
         public string _cons;
         public string storage;
-
+        public m_laptop()
+        {
+            _outside = new outside();
+            _gpu = new GPU();
+            _cpu = new CPU();
+            _screen = new Screen();
+            _battery = new Batttery();
+        }
     }
 }

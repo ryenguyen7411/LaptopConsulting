@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions.cs" />
     <Compile Include="CoreSystem.cs" />
     <Compile Include="Laptop\Batttery.cs" />
     <Compile Include="Laptop\CPU.cs" />
@@ -62,6 +63,19 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ontology.cs" />
+    <Compile Include="Pc\Case.cs" />
+    <Compile Include="Pc\Cpu.cs" />
+    <Compile Include="Pc\Gpu.cs" />
+    <Compile Include="Pc\Hdd.cs" />
+    <Compile Include="Pc\Hsf.cs" />
+    <Compile Include="Pc\Mobo.cs" />
+    <Compile Include="Pc\Part.cs" />
+    <Compile Include="Pc\Pc.cs" />
+    <Compile Include="Pc\Psu.cs" />
+    <Compile Include="Pc\Ram.cs" />
+    <Compile Include="Pc\Ssd.cs" />
+    <Compile Include="Pc\Tier.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">
@@ -95,6 +109,7 @@
       <Name>ontology_manager</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
