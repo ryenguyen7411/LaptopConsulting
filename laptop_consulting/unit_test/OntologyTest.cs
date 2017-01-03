@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ontology_manager;
 
@@ -17,11 +18,10 @@ namespace unit_test
             OntologyManager manager = new OntologyManager(pcPath, laptopPath);
 
             Assert.IsNotNull(manager);
-            Assert.IsNotNull(manager.PcObjects);
-            Assert.IsNotNull(manager.LaptopObjects);
-            
+            Assert.IsNotNull(manager.PcBuilds);
+            Assert.IsNotNull(manager.LaptopBuilds);
+            Assert.IsTrue(manager.PcBuilds.Any());
+            Assert.IsTrue(manager.LaptopBuilds.Any());
         }
-
-       
     }
 }
