@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laptop_consulting", "laptop_consulting\laptop_consulting.csproj", "{D4F0E08E-FBBC-4345-9095-95466C50B09B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ontology_manager", "ontology_manager\ontology_manager.csproj", "{58F38EDB-6242-4D06-8C0F-5A55CFDA4470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unit_test", "unit_test\unit_test.csproj", "{E0F1829D-B373-458E-BA97-AC501B46216B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D4F0E08E-FBBC-4345-9095-95466C50B09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F0E08E-FBBC-4345-9095-95466C50B09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F0E08E-FBBC-4345-9095-95466C50B09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F38EDB-6242-4D06-8C0F-5A55CFDA4470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F38EDB-6242-4D06-8C0F-5A55CFDA4470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F38EDB-6242-4D06-8C0F-5A55CFDA4470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F38EDB-6242-4D06-8C0F-5A55CFDA4470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F1829D-B373-458E-BA97-AC501B46216B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F1829D-B373-458E-BA97-AC501B46216B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F1829D-B373-458E-BA97-AC501B46216B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F1829D-B373-458E-BA97-AC501B46216B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
