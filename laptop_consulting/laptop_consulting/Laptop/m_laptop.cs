@@ -18,6 +18,7 @@ namespace Laptop_Resuilt.Laptop
         public string _detail_decription;
         public string _pros;
         public string _cons;
+        public string storage;
 
     }
 }
