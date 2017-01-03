@@ -1,6 +1,9 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ontology_manager;
+using ontology_manager.Pc;
 
 namespace unit_test
 {
@@ -19,6 +22,11 @@ namespace unit_test
             Assert.IsNotNull(manager);
             Assert.IsNotNull(manager.PcObjects);
             Assert.IsNotNull(manager.LaptopObjects);
+
+            List<ontology_manager.Laptop.Object> laptopObjects = manager.LaptopObjects.Where(l => l.HasName != null).ToList();
+            Assert.IsTrue(laptopObjects.Count > 0);
+
+            // List<IList<HasValue>> pcObjects = manager.PcObjects.Where(pc => pc.HasValue != null).Select(pc => pc.HasValue).ToList();
         }
     }
 }
