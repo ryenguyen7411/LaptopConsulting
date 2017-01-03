@@ -64,6 +64,20 @@
             this.materialRadioButton26 = new MaterialSkin.Controls.MaterialRadioButton();
             this.materialRadioButton27 = new MaterialSkin.Controls.MaterialRadioButton();
             this.materialRadioButton28 = new MaterialSkin.Controls.MaterialRadioButton();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // radio_laptop
@@ -71,7 +85,7 @@
             this.radio_laptop.AutoSize = true;
             this.radio_laptop.Depth = 0;
             this.radio_laptop.Font = new System.Drawing.Font("Roboto", 10F);
-            this.radio_laptop.Location = new System.Drawing.Point(73, 95);
+            this.radio_laptop.Location = new System.Drawing.Point(3, 0);
             this.radio_laptop.Margin = new System.Windows.Forms.Padding(0);
             this.radio_laptop.MouseLocation = new System.Drawing.Point(-1, -1);
             this.radio_laptop.MouseState = MaterialSkin.MouseState.HOVER;
@@ -87,7 +101,7 @@
             this.radio_desktop.AutoSize = true;
             this.radio_desktop.Depth = 0;
             this.radio_desktop.Font = new System.Drawing.Font("Roboto", 10F);
-            this.radio_desktop.Location = new System.Drawing.Point(410, 95);
+            this.radio_desktop.Location = new System.Drawing.Point(173, 0);
             this.radio_desktop.Margin = new System.Windows.Forms.Padding(0);
             this.radio_desktop.MouseLocation = new System.Drawing.Point(-1, -1);
             this.radio_desktop.MouseState = MaterialSkin.MouseState.HOVER;
@@ -103,7 +117,7 @@
             this.lbl_ram.AutoSize = true;
             this.lbl_ram.Depth = 0;
             this.lbl_ram.Font = new System.Drawing.Font("Roboto", 11F);
-            this.lbl_ram.Location = new System.Drawing.Point(76, 175);
+            this.lbl_ram.Location = new System.Drawing.Point(3, -3);
             this.lbl_ram.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_ram.Name = "lbl_ram";
             this.lbl_ram.Size = new System.Drawing.Size(57, 27);
@@ -115,7 +129,7 @@
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel1.Location = new System.Drawing.Point(76, 228);
+            this.materialLabel1.Location = new System.Drawing.Point(-5, 10);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(54, 27);
@@ -127,7 +141,7 @@
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel2.Location = new System.Drawing.Point(76, 279);
+            this.materialLabel2.Location = new System.Drawing.Point(-3, 8);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(88, 27);
@@ -139,7 +153,7 @@
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
             this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel3.Location = new System.Drawing.Point(76, 330);
+            this.materialLabel3.Location = new System.Drawing.Point(-3, -1);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             this.materialLabel3.Size = new System.Drawing.Size(80, 27);
@@ -151,7 +165,7 @@
             this.materialLabel5.AutoSize = true;
             this.materialLabel5.Depth = 0;
             this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel5.Location = new System.Drawing.Point(76, 381);
+            this.materialLabel5.Location = new System.Drawing.Point(-5, 0);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             this.materialLabel5.Size = new System.Drawing.Size(93, 27);
@@ -163,7 +177,7 @@
             this.materialLabel4.AutoSize = true;
             this.materialLabel4.Depth = 0;
             this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel4.Location = new System.Drawing.Point(76, 433);
+            this.materialLabel4.Location = new System.Drawing.Point(7, 0);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
             this.materialLabel4.Size = new System.Drawing.Size(62, 27);
@@ -175,7 +189,7 @@
             this.materialRadioButton1.AutoSize = true;
             this.materialRadioButton1.Depth = 0;
             this.materialRadioButton1.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton1.Location = new System.Drawing.Point(221, 175);
+            this.materialRadioButton1.Location = new System.Drawing.Point(137, 0);
             this.materialRadioButton1.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton1.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton1.MouseState = MaterialSkin.MouseState.HOVER;
@@ -191,7 +205,7 @@
             this.materialRadioButton2.AutoSize = true;
             this.materialRadioButton2.Depth = 0;
             this.materialRadioButton2.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton2.Location = new System.Drawing.Point(375, 175);
+            this.materialRadioButton2.Location = new System.Drawing.Point(291, 0);
             this.materialRadioButton2.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton2.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton2.MouseState = MaterialSkin.MouseState.HOVER;
@@ -207,7 +221,7 @@
             this.materialRadioButton3.AutoSize = true;
             this.materialRadioButton3.Depth = 0;
             this.materialRadioButton3.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton3.Location = new System.Drawing.Point(542, 175);
+            this.materialRadioButton3.Location = new System.Drawing.Point(458, -2);
             this.materialRadioButton3.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton3.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton3.MouseState = MaterialSkin.MouseState.HOVER;
@@ -223,7 +237,7 @@
             this.materialRadioButton4.AutoSize = true;
             this.materialRadioButton4.Depth = 0;
             this.materialRadioButton4.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton4.Location = new System.Drawing.Point(704, 175);
+            this.materialRadioButton4.Location = new System.Drawing.Point(620, -2);
             this.materialRadioButton4.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton4.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton4.MouseState = MaterialSkin.MouseState.HOVER;
@@ -239,7 +253,7 @@
             this.materialRadioButton5.AutoSize = true;
             this.materialRadioButton5.Depth = 0;
             this.materialRadioButton5.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton5.Location = new System.Drawing.Point(862, 175);
+            this.materialRadioButton5.Location = new System.Drawing.Point(778, 0);
             this.materialRadioButton5.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton5.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton5.MouseState = MaterialSkin.MouseState.HOVER;
@@ -255,7 +269,7 @@
             this.materialRadioButton6.AutoSize = true;
             this.materialRadioButton6.Depth = 0;
             this.materialRadioButton6.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton6.Location = new System.Drawing.Point(221, 225);
+            this.materialRadioButton6.Location = new System.Drawing.Point(136, 12);
             this.materialRadioButton6.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton6.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton6.MouseState = MaterialSkin.MouseState.HOVER;
@@ -271,7 +285,7 @@
             this.materialRadioButton7.AutoSize = true;
             this.materialRadioButton7.Depth = 0;
             this.materialRadioButton7.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton7.Location = new System.Drawing.Point(375, 226);
+            this.materialRadioButton7.Location = new System.Drawing.Point(294, 12);
             this.materialRadioButton7.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton7.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton7.MouseState = MaterialSkin.MouseState.HOVER;
@@ -288,7 +302,7 @@
             this.materialRadioButton8.AutoSize = true;
             this.materialRadioButton8.Depth = 0;
             this.materialRadioButton8.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton8.Location = new System.Drawing.Point(542, 225);
+            this.materialRadioButton8.Location = new System.Drawing.Point(461, 12);
             this.materialRadioButton8.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton8.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton8.MouseState = MaterialSkin.MouseState.HOVER;
@@ -305,7 +319,7 @@
             this.materialRadioButton9.AutoSize = true;
             this.materialRadioButton9.Depth = 0;
             this.materialRadioButton9.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton9.Location = new System.Drawing.Point(704, 225);
+            this.materialRadioButton9.Location = new System.Drawing.Point(623, 12);
             this.materialRadioButton9.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton9.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton9.MouseState = MaterialSkin.MouseState.HOVER;
@@ -322,7 +336,7 @@
             this.materialRadioButton10.AutoSize = true;
             this.materialRadioButton10.Depth = 0;
             this.materialRadioButton10.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton10.Location = new System.Drawing.Point(862, 225);
+            this.materialRadioButton10.Location = new System.Drawing.Point(781, 12);
             this.materialRadioButton10.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton10.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton10.MouseState = MaterialSkin.MouseState.HOVER;
@@ -339,7 +353,7 @@
             this.materialRadioButton11.AutoSize = true;
             this.materialRadioButton11.Depth = 0;
             this.materialRadioButton11.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton11.Location = new System.Drawing.Point(221, 276);
+            this.materialRadioButton11.Location = new System.Drawing.Point(150, 3);
             this.materialRadioButton11.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton11.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton11.MouseState = MaterialSkin.MouseState.HOVER;
@@ -356,7 +370,7 @@
             this.materialRadioButton12.AutoSize = true;
             this.materialRadioButton12.Depth = 0;
             this.materialRadioButton12.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton12.Location = new System.Drawing.Point(375, 276);
+            this.materialRadioButton12.Location = new System.Drawing.Point(303, 3);
             this.materialRadioButton12.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton12.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton12.MouseState = MaterialSkin.MouseState.HOVER;
@@ -373,7 +387,7 @@
             this.materialRadioButton13.AutoSize = true;
             this.materialRadioButton13.Depth = 0;
             this.materialRadioButton13.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton13.Location = new System.Drawing.Point(542, 276);
+            this.materialRadioButton13.Location = new System.Drawing.Point(471, 0);
             this.materialRadioButton13.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton13.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton13.MouseState = MaterialSkin.MouseState.HOVER;
@@ -390,7 +404,7 @@
             this.materialRadioButton14.AutoSize = true;
             this.materialRadioButton14.Depth = 0;
             this.materialRadioButton14.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton14.Location = new System.Drawing.Point(704, 276);
+            this.materialRadioButton14.Location = new System.Drawing.Point(633, 0);
             this.materialRadioButton14.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton14.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton14.MouseState = MaterialSkin.MouseState.HOVER;
@@ -407,7 +421,7 @@
             this.materialRadioButton15.AutoSize = true;
             this.materialRadioButton15.Depth = 0;
             this.materialRadioButton15.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton15.Location = new System.Drawing.Point(862, 276);
+            this.materialRadioButton15.Location = new System.Drawing.Point(791, 0);
             this.materialRadioButton15.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton15.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton15.MouseState = MaterialSkin.MouseState.HOVER;
@@ -424,7 +438,7 @@
             this.materialRadioButton16.AutoSize = true;
             this.materialRadioButton16.Depth = 0;
             this.materialRadioButton16.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton16.Location = new System.Drawing.Point(221, 327);
+            this.materialRadioButton16.Location = new System.Drawing.Point(145, 0);
             this.materialRadioButton16.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton16.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton16.MouseState = MaterialSkin.MouseState.HOVER;
@@ -441,7 +455,7 @@
             this.materialRadioButton17.AutoSize = true;
             this.materialRadioButton17.Depth = 0;
             this.materialRadioButton17.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton17.Location = new System.Drawing.Point(375, 327);
+            this.materialRadioButton17.Location = new System.Drawing.Point(291, 0);
             this.materialRadioButton17.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton17.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton17.MouseState = MaterialSkin.MouseState.HOVER;
@@ -458,7 +472,7 @@
             this.materialRadioButton18.AutoSize = true;
             this.materialRadioButton18.Depth = 0;
             this.materialRadioButton18.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton18.Location = new System.Drawing.Point(542, 327);
+            this.materialRadioButton18.Location = new System.Drawing.Point(456, 0);
             this.materialRadioButton18.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton18.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton18.MouseState = MaterialSkin.MouseState.HOVER;
@@ -475,7 +489,7 @@
             this.materialRadioButton19.AutoSize = true;
             this.materialRadioButton19.Depth = 0;
             this.materialRadioButton19.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton19.Location = new System.Drawing.Point(704, 328);
+            this.materialRadioButton19.Location = new System.Drawing.Point(632, 0);
             this.materialRadioButton19.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton19.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton19.MouseState = MaterialSkin.MouseState.HOVER;
@@ -492,7 +506,7 @@
             this.materialRadioButton20.AutoSize = true;
             this.materialRadioButton20.Depth = 0;
             this.materialRadioButton20.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton20.Location = new System.Drawing.Point(221, 378);
+            this.materialRadioButton20.Location = new System.Drawing.Point(141, 11);
             this.materialRadioButton20.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton20.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton20.MouseState = MaterialSkin.MouseState.HOVER;
@@ -509,7 +523,7 @@
             this.materialRadioButton21.AutoSize = true;
             this.materialRadioButton21.Depth = 0;
             this.materialRadioButton21.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton21.Location = new System.Drawing.Point(375, 378);
+            this.materialRadioButton21.Location = new System.Drawing.Point(313, 11);
             this.materialRadioButton21.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton21.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton21.MouseState = MaterialSkin.MouseState.HOVER;
@@ -526,7 +540,7 @@
             this.materialRadioButton22.AutoSize = true;
             this.materialRadioButton22.Depth = 0;
             this.materialRadioButton22.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton22.Location = new System.Drawing.Point(542, 378);
+            this.materialRadioButton22.Location = new System.Drawing.Point(480, 11);
             this.materialRadioButton22.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton22.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton22.MouseState = MaterialSkin.MouseState.HOVER;
@@ -543,7 +557,7 @@
             this.materialRadioButton23.AutoSize = true;
             this.materialRadioButton23.Depth = 0;
             this.materialRadioButton23.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton23.Location = new System.Drawing.Point(704, 378);
+            this.materialRadioButton23.Location = new System.Drawing.Point(632, 11);
             this.materialRadioButton23.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton23.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton23.MouseState = MaterialSkin.MouseState.HOVER;
@@ -560,7 +574,7 @@
             this.materialRadioButton24.AutoSize = true;
             this.materialRadioButton24.Depth = 0;
             this.materialRadioButton24.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton24.Location = new System.Drawing.Point(862, 378);
+            this.materialRadioButton24.Location = new System.Drawing.Point(805, 12);
             this.materialRadioButton24.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton24.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton24.MouseState = MaterialSkin.MouseState.HOVER;
@@ -577,7 +591,7 @@
             this.materialRadioButton25.AutoSize = true;
             this.materialRadioButton25.Depth = 0;
             this.materialRadioButton25.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton25.Location = new System.Drawing.Point(221, 433);
+            this.materialRadioButton25.Location = new System.Drawing.Point(154, 0);
             this.materialRadioButton25.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton25.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton25.MouseState = MaterialSkin.MouseState.HOVER;
@@ -594,7 +608,7 @@
             this.materialRadioButton26.AutoSize = true;
             this.materialRadioButton26.Depth = 0;
             this.materialRadioButton26.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton26.Location = new System.Drawing.Point(375, 433);
+            this.materialRadioButton26.Location = new System.Drawing.Point(303, 0);
             this.materialRadioButton26.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton26.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton26.MouseState = MaterialSkin.MouseState.HOVER;
@@ -611,7 +625,7 @@
             this.materialRadioButton27.AutoSize = true;
             this.materialRadioButton27.Depth = 0;
             this.materialRadioButton27.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton27.Location = new System.Drawing.Point(542, 431);
+            this.materialRadioButton27.Location = new System.Drawing.Point(470, -3);
             this.materialRadioButton27.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton27.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton27.MouseState = MaterialSkin.MouseState.HOVER;
@@ -628,7 +642,7 @@
             this.materialRadioButton28.AutoSize = true;
             this.materialRadioButton28.Depth = 0;
             this.materialRadioButton28.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton28.Location = new System.Drawing.Point(704, 430);
+            this.materialRadioButton28.Location = new System.Drawing.Point(656, 12);
             this.materialRadioButton28.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton28.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton28.MouseState = MaterialSkin.MouseState.HOVER;
@@ -640,51 +654,120 @@
             this.materialRadioButton28.Text = ">1000$";
             this.materialRadioButton28.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.radio_laptop);
+            this.panel1.Controls.Add(this.radio_desktop);
+            this.panel1.Location = new System.Drawing.Point(81, 83);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(868, 46);
+            this.panel1.TabIndex = 37;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.materialRadioButton1);
+            this.panel2.Controls.Add(this.materialRadioButton2);
+            this.panel2.Controls.Add(this.materialRadioButton3);
+            this.panel2.Controls.Add(this.materialRadioButton4);
+            this.panel2.Controls.Add(this.materialRadioButton5);
+            this.panel2.Controls.Add(this.lbl_ram);
+            this.panel2.Location = new System.Drawing.Point(84, 167);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(878, 30);
+            this.panel2.TabIndex = 38;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.materialLabel1);
+            this.panel3.Controls.Add(this.materialRadioButton6);
+            this.panel3.Controls.Add(this.materialRadioButton7);
+            this.panel3.Controls.Add(this.materialRadioButton8);
+            this.panel3.Controls.Add(this.materialRadioButton9);
+            this.panel3.Controls.Add(this.materialRadioButton10);
+            this.panel3.Location = new System.Drawing.Point(81, 214);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(878, 42);
+            this.panel3.TabIndex = 39;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.materialLabel2);
+            this.panel4.Controls.Add(this.materialRadioButton11);
+            this.panel4.Controls.Add(this.materialRadioButton13);
+            this.panel4.Controls.Add(this.materialRadioButton14);
+            this.panel4.Controls.Add(this.materialRadioButton15);
+            this.panel4.Controls.Add(this.materialRadioButton12);
+            this.panel4.Location = new System.Drawing.Point(72, 271);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(918, 30);
+            this.panel4.TabIndex = 40;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.materialLabel3);
+            this.panel5.Controls.Add(this.materialRadioButton16);
+            this.panel5.Controls.Add(this.materialRadioButton17);
+            this.panel5.Controls.Add(this.materialRadioButton18);
+            this.panel5.Controls.Add(this.materialRadioButton19);
+            this.panel5.Location = new System.Drawing.Point(81, 330);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(969, 29);
+            this.panel5.TabIndex = 41;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.materialLabel5);
+            this.panel6.Controls.Add(this.materialRadioButton20);
+            this.panel6.Controls.Add(this.materialRadioButton21);
+            this.panel6.Controls.Add(this.materialRadioButton22);
+            this.panel6.Controls.Add(this.materialRadioButton23);
+            this.panel6.Controls.Add(this.materialRadioButton24);
+            this.panel6.Location = new System.Drawing.Point(81, 386);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(902, 41);
+            this.panel6.TabIndex = 42;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.materialLabel4);
+            this.panel7.Controls.Add(this.materialRadioButton25);
+            this.panel7.Controls.Add(this.materialRadioButton26);
+            this.panel7.Controls.Add(this.materialRadioButton27);
+            this.panel7.Controls.Add(this.materialRadioButton28);
+            this.panel7.Location = new System.Drawing.Point(72, 483);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(982, 42);
+            this.panel7.TabIndex = 43;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
-            this.Controls.Add(this.materialRadioButton28);
-            this.Controls.Add(this.materialRadioButton27);
-            this.Controls.Add(this.materialRadioButton26);
-            this.Controls.Add(this.materialRadioButton25);
-            this.Controls.Add(this.materialRadioButton24);
-            this.Controls.Add(this.materialRadioButton23);
-            this.Controls.Add(this.materialRadioButton22);
-            this.Controls.Add(this.materialRadioButton21);
-            this.Controls.Add(this.materialRadioButton20);
-            this.Controls.Add(this.materialRadioButton19);
-            this.Controls.Add(this.materialRadioButton18);
-            this.Controls.Add(this.materialRadioButton17);
-            this.Controls.Add(this.materialRadioButton16);
-            this.Controls.Add(this.materialRadioButton15);
-            this.Controls.Add(this.materialRadioButton14);
-            this.Controls.Add(this.materialRadioButton13);
-            this.Controls.Add(this.materialRadioButton12);
-            this.Controls.Add(this.materialRadioButton11);
-            this.Controls.Add(this.materialRadioButton10);
-            this.Controls.Add(this.materialRadioButton9);
-            this.Controls.Add(this.materialRadioButton8);
-            this.Controls.Add(this.materialRadioButton7);
-            this.Controls.Add(this.materialRadioButton6);
-            this.Controls.Add(this.materialRadioButton5);
-            this.Controls.Add(this.materialRadioButton4);
-            this.Controls.Add(this.materialRadioButton3);
-            this.Controls.Add(this.materialRadioButton2);
-            this.Controls.Add(this.materialRadioButton1);
-            this.Controls.Add(this.materialLabel4);
-            this.Controls.Add(this.materialLabel5);
-            this.Controls.Add(this.materialLabel3);
-            this.Controls.Add(this.materialLabel2);
-            this.Controls.Add(this.materialLabel1);
-            this.Controls.Add(this.lbl_ram);
-            this.Controls.Add(this.radio_desktop);
-            this.Controls.Add(this.radio_laptop);
+            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Name = "MainForm";
             this.Text = "Main Form";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -726,6 +809,13 @@
         private MaterialSkin.Controls.MaterialRadioButton materialRadioButton26;
         private MaterialSkin.Controls.MaterialRadioButton materialRadioButton27;
         private MaterialSkin.Controls.MaterialRadioButton materialRadioButton28;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel7;
     }
 }
 
