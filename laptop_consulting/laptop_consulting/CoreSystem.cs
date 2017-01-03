@@ -37,6 +37,9 @@ namespace Laptop_Resuilt
         {
             var _misces = manager.LaptopBuilds.ElementAt(laptopIndex).HasMisc;
 
+            if (_misces == null)
+                return null;
+
             for(int i = 0; i < _misces.Count(); i++)
             {
                 var valueMisc = manager.LaptopObjects.Where(l => l.Id == _misces[i].Id).First();

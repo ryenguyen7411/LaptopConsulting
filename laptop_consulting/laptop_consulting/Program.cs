@@ -19,10 +19,7 @@ namespace Laptop_Resuilt
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new MainForm());
-            CoreSystem.init();
-           
-
+            Application.Run(new MainForm());
         }
     }
 }

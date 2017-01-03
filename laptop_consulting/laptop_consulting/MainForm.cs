@@ -16,11 +16,16 @@ namespace Laptop_Resuilt
         public MainForm()
         {
             InitializeComponent();
+
+            CoreSystem.init();
         }
 
-        private void materialRadioButton12_CheckedChanged(object sender, EventArgs e)
+        private void btn_analyze_Click(object sender, EventArgs e)
         {
+            var checkedButton = panel_mode.Controls.OfType<RadioButton>()
+                                      .FirstOrDefault(r => r.Checked);
 
+            int a = 0;
         }
     }
 }
