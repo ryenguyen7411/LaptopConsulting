@@ -3,7 +3,8 @@
     class CPU
     {
         public string _decriptionCPU;
-        public string _decriptionGPU;
-        public int _ram;
+        public string m_name;
+        public string m_ram;
+
     }
 }

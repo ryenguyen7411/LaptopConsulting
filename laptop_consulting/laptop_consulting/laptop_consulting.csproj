@@ -49,10 +49,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Extensions.cs" />
+=======
+    <Compile Include="CoreSystem.cs" />
+>>>>>>> 84af773b498c8c302f0c68aca341b34e197283e0
     <Compile Include="Laptop\Batttery.cs" />
     <Compile Include="Laptop\CPU.cs" />
-    <Compile Include="Laptop\Laptop.cs" />
+    <Compile Include="Laptop\GPU.cs" />
+    <Compile Include="Laptop\m_laptop.cs" />
     <Compile Include="Laptop\outside.cs" />
     <Compile Include="Laptop\Screen.cs" />
     <Compile Include="MainForm.cs">

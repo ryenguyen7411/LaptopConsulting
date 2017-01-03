@@ -1,4 +1,4 @@
-﻿namespace laptop_consulting
+﻿namespace Laptop_Resuilt
 {
     partial class MainForm
     {
@@ -64,26 +64,28 @@
             this.radio_price_500_700 = new MaterialSkin.Controls.MaterialRadioButton();
             this.radio_price_700_1000 = new MaterialSkin.Controls.MaterialRadioButton();
             this.radio_price_1000 = new MaterialSkin.Controls.MaterialRadioButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel_mode = new System.Windows.Forms.Panel();
+            this.panel_ram = new System.Windows.Forms.Panel();
             this.radio_ram_all = new MaterialSkin.Controls.MaterialRadioButton();
+            this.panel_cpu = new System.Windows.Forms.Panel();
             this.radio_cpu_all = new MaterialSkin.Controls.MaterialRadioButton();
+            this.panel_storage = new System.Windows.Forms.Panel();
             this.radio_storage_all = new MaterialSkin.Controls.MaterialRadioButton();
+            this.panel_screen = new System.Windows.Forms.Panel();
             this.radio_screen_all = new MaterialSkin.Controls.MaterialRadioButton();
+            this.panel_demand = new System.Windows.Forms.Panel();
             this.radio_demand_all = new MaterialSkin.Controls.MaterialRadioButton();
+            this.panel_price = new System.Windows.Forms.Panel();
             this.radio_price_all = new MaterialSkin.Controls.MaterialRadioButton();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
+            this.btn_clear = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.btn_analyze = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.panel_mode.SuspendLayout();
+            this.panel_ram.SuspendLayout();
+            this.panel_cpu.SuspendLayout();
+            this.panel_storage.SuspendLayout();
+            this.panel_screen.SuspendLayout();
+            this.panel_demand.SuspendLayout();
+            this.panel_price.SuspendLayout();
             this.SuspendLayout();
             // 
             // radio_laptop
@@ -660,96 +662,28 @@
             this.radio_price_1000.Text = ">1000$";
             this.radio_price_1000.UseVisualStyleBackColor = true;
             // 
-            // panel1
+            // panel_mode
             // 
-            this.panel1.Controls.Add(this.radio_laptop);
-            this.panel1.Controls.Add(this.radio_desktop);
-            this.panel1.Location = new System.Drawing.Point(81, 83);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(868, 46);
-            this.panel1.TabIndex = 37;
+            this.panel_mode.Controls.Add(this.radio_laptop);
+            this.panel_mode.Controls.Add(this.radio_desktop);
+            this.panel_mode.Location = new System.Drawing.Point(81, 83);
+            this.panel_mode.Name = "panel_mode";
+            this.panel_mode.Size = new System.Drawing.Size(868, 46);
+            this.panel_mode.TabIndex = 37;
             // 
-            // panel2
+            // panel_ram
             // 
-            this.panel2.Controls.Add(this.radio_ram_all);
-            this.panel2.Controls.Add(this.radio_ram_1gb);
-            this.panel2.Controls.Add(this.radio_ram_2gb);
-            this.panel2.Controls.Add(this.radio_ram_4gb);
-            this.panel2.Controls.Add(this.radio_ram_8gb);
-            this.panel2.Controls.Add(this.radio_ram_16gb);
-            this.panel2.Controls.Add(this.lbl_ram);
-            this.panel2.Location = new System.Drawing.Point(84, 167);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(878, 30);
-            this.panel2.TabIndex = 38;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.radio_cpu_all);
-            this.panel3.Controls.Add(this.materialLabel1);
-            this.panel3.Controls.Add(this.radio_cpu_celeron);
-            this.panel3.Controls.Add(this.radio_cpu_corem);
-            this.panel3.Controls.Add(this.radio_cpu_corei3);
-            this.panel3.Controls.Add(this.radio_cpu_corei5);
-            this.panel3.Controls.Add(this.radio_cpu_corei7);
-            this.panel3.Location = new System.Drawing.Point(81, 214);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(878, 42);
-            this.panel3.TabIndex = 39;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.radio_storage_all);
-            this.panel4.Controls.Add(this.materialLabel2);
-            this.panel4.Controls.Add(this.radio_storage_hdd500gb);
-            this.panel4.Controls.Add(this.radio_storage_ssd128gb);
-            this.panel4.Controls.Add(this.radio_storage_ssd256gb);
-            this.panel4.Controls.Add(this.radio_storage_ssd512gb);
-            this.panel4.Controls.Add(this.radio_storage_hdd1tb);
-            this.panel4.Location = new System.Drawing.Point(72, 271);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(918, 30);
-            this.panel4.TabIndex = 40;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.radio_screen_all);
-            this.panel5.Controls.Add(this.materialLabel3);
-            this.panel5.Controls.Add(this.radio_screen_13);
-            this.panel5.Controls.Add(this.radio_screen_14);
-            this.panel5.Controls.Add(this.radio_screen_15_6);
-            this.panel5.Controls.Add(this.radio_screen_17);
-            this.panel5.Location = new System.Drawing.Point(81, 330);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(969, 29);
-            this.panel5.TabIndex = 41;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.radio_demand_all);
-            this.panel6.Controls.Add(this.materialLabel5);
-            this.panel6.Controls.Add(this.radio_demand_office);
-            this.panel6.Controls.Add(this.radio_demand_gaming);
-            this.panel6.Controls.Add(this.radio_demand_graphics);
-            this.panel6.Controls.Add(this.radio_demand_business);
-            this.panel6.Controls.Add(this.radio_demand_fashion);
-            this.panel6.Location = new System.Drawing.Point(81, 386);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(902, 41);
-            this.panel6.TabIndex = 42;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.radio_price_all);
-            this.panel7.Controls.Add(this.materialLabel4);
-            this.panel7.Controls.Add(this.radio_price_500);
-            this.panel7.Controls.Add(this.radio_price_500_700);
-            this.panel7.Controls.Add(this.radio_price_700_1000);
-            this.panel7.Controls.Add(this.radio_price_1000);
-            this.panel7.Location = new System.Drawing.Point(72, 483);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(982, 42);
-            this.panel7.TabIndex = 43;
+            this.panel_ram.Controls.Add(this.radio_ram_all);
+            this.panel_ram.Controls.Add(this.radio_ram_1gb);
+            this.panel_ram.Controls.Add(this.radio_ram_2gb);
+            this.panel_ram.Controls.Add(this.radio_ram_4gb);
+            this.panel_ram.Controls.Add(this.radio_ram_8gb);
+            this.panel_ram.Controls.Add(this.radio_ram_16gb);
+            this.panel_ram.Controls.Add(this.lbl_ram);
+            this.panel_ram.Location = new System.Drawing.Point(84, 167);
+            this.panel_ram.Name = "panel_ram";
+            this.panel_ram.Size = new System.Drawing.Size(878, 30);
+            this.panel_ram.TabIndex = 38;
             // 
             // radio_ram_all
             // 
@@ -767,6 +701,20 @@
             this.radio_ram_all.Text = "All";
             this.radio_ram_all.UseVisualStyleBackColor = true;
             // 
+            // panel_cpu
+            // 
+            this.panel_cpu.Controls.Add(this.radio_cpu_all);
+            this.panel_cpu.Controls.Add(this.materialLabel1);
+            this.panel_cpu.Controls.Add(this.radio_cpu_celeron);
+            this.panel_cpu.Controls.Add(this.radio_cpu_corem);
+            this.panel_cpu.Controls.Add(this.radio_cpu_corei3);
+            this.panel_cpu.Controls.Add(this.radio_cpu_corei5);
+            this.panel_cpu.Controls.Add(this.radio_cpu_corei7);
+            this.panel_cpu.Location = new System.Drawing.Point(81, 214);
+            this.panel_cpu.Name = "panel_cpu";
+            this.panel_cpu.Size = new System.Drawing.Size(878, 42);
+            this.panel_cpu.TabIndex = 39;
+            // 
             // radio_cpu_all
             // 
             this.radio_cpu_all.AutoSize = true;
@@ -782,6 +730,20 @@
             this.radio_cpu_all.TabIndex = 15;
             this.radio_cpu_all.Text = "All";
             this.radio_cpu_all.UseVisualStyleBackColor = true;
+            // 
+            // panel_storage
+            // 
+            this.panel_storage.Controls.Add(this.radio_storage_all);
+            this.panel_storage.Controls.Add(this.materialLabel2);
+            this.panel_storage.Controls.Add(this.radio_storage_hdd500gb);
+            this.panel_storage.Controls.Add(this.radio_storage_ssd128gb);
+            this.panel_storage.Controls.Add(this.radio_storage_ssd256gb);
+            this.panel_storage.Controls.Add(this.radio_storage_ssd512gb);
+            this.panel_storage.Controls.Add(this.radio_storage_hdd1tb);
+            this.panel_storage.Location = new System.Drawing.Point(72, 271);
+            this.panel_storage.Name = "panel_storage";
+            this.panel_storage.Size = new System.Drawing.Size(918, 30);
+            this.panel_storage.TabIndex = 40;
             // 
             // radio_storage_all
             // 
@@ -799,6 +761,19 @@
             this.radio_storage_all.Text = "All";
             this.radio_storage_all.UseVisualStyleBackColor = true;
             // 
+            // panel_screen
+            // 
+            this.panel_screen.Controls.Add(this.radio_screen_all);
+            this.panel_screen.Controls.Add(this.materialLabel3);
+            this.panel_screen.Controls.Add(this.radio_screen_13);
+            this.panel_screen.Controls.Add(this.radio_screen_14);
+            this.panel_screen.Controls.Add(this.radio_screen_15_6);
+            this.panel_screen.Controls.Add(this.radio_screen_17);
+            this.panel_screen.Location = new System.Drawing.Point(81, 330);
+            this.panel_screen.Name = "panel_screen";
+            this.panel_screen.Size = new System.Drawing.Size(969, 29);
+            this.panel_screen.TabIndex = 41;
+            // 
             // radio_screen_all
             // 
             this.radio_screen_all.AutoSize = true;
@@ -814,6 +789,20 @@
             this.radio_screen_all.TabIndex = 24;
             this.radio_screen_all.Text = "All";
             this.radio_screen_all.UseVisualStyleBackColor = true;
+            // 
+            // panel_demand
+            // 
+            this.panel_demand.Controls.Add(this.radio_demand_all);
+            this.panel_demand.Controls.Add(this.materialLabel5);
+            this.panel_demand.Controls.Add(this.radio_demand_office);
+            this.panel_demand.Controls.Add(this.radio_demand_gaming);
+            this.panel_demand.Controls.Add(this.radio_demand_graphics);
+            this.panel_demand.Controls.Add(this.radio_demand_business);
+            this.panel_demand.Controls.Add(this.radio_demand_fashion);
+            this.panel_demand.Location = new System.Drawing.Point(81, 386);
+            this.panel_demand.Name = "panel_demand";
+            this.panel_demand.Size = new System.Drawing.Size(902, 41);
+            this.panel_demand.TabIndex = 42;
             // 
             // radio_demand_all
             // 
@@ -831,6 +820,19 @@
             this.radio_demand_all.Text = "All";
             this.radio_demand_all.UseVisualStyleBackColor = true;
             // 
+            // panel_price
+            // 
+            this.panel_price.Controls.Add(this.radio_price_all);
+            this.panel_price.Controls.Add(this.materialLabel4);
+            this.panel_price.Controls.Add(this.radio_price_500);
+            this.panel_price.Controls.Add(this.radio_price_500_700);
+            this.panel_price.Controls.Add(this.radio_price_700_1000);
+            this.panel_price.Controls.Add(this.radio_price_1000);
+            this.panel_price.Location = new System.Drawing.Point(72, 483);
+            this.panel_price.Name = "panel_price";
+            this.panel_price.Size = new System.Drawing.Size(982, 42);
+            this.panel_price.TabIndex = 43;
+            // 
             // radio_price_all
             // 
             this.radio_price_all.AutoSize = true;
@@ -847,34 +849,61 @@
             this.radio_price_all.Text = "All";
             this.radio_price_all.UseVisualStyleBackColor = true;
             // 
+            // btn_clear
+            // 
+            this.btn_clear.Depth = 0;
+            this.btn_clear.Location = new System.Drawing.Point(74, 594);
+            this.btn_clear.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Primary = true;
+            this.btn_clear.Size = new System.Drawing.Size(128, 47);
+            this.btn_clear.TabIndex = 44;
+            this.btn_clear.Text = "Clear";
+            this.btn_clear.UseVisualStyleBackColor = true;
+            // 
+            // btn_analyze
+            // 
+            this.btn_analyze.Depth = 0;
+            this.btn_analyze.Location = new System.Drawing.Point(234, 594);
+            this.btn_analyze.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_analyze.Name = "btn_analyze";
+            this.btn_analyze.Primary = true;
+            this.btn_analyze.Size = new System.Drawing.Size(128, 47);
+            this.btn_analyze.TabIndex = 45;
+            this.btn_analyze.Text = "Analyze";
+            this.btn_analyze.UseVisualStyleBackColor = true;
+            this.btn_analyze.Click += new System.EventHandler(this.btn_analyze_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btn_analyze);
+            this.Controls.Add(this.btn_clear);
+            this.Controls.Add(this.panel_price);
+            this.Controls.Add(this.panel_demand);
+            this.Controls.Add(this.panel_screen);
+            this.Controls.Add(this.panel_storage);
+            this.Controls.Add(this.panel_cpu);
+            this.Controls.Add(this.panel_ram);
+            this.Controls.Add(this.panel_mode);
             this.Name = "MainForm";
             this.Text = "Main Form";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.panel_mode.ResumeLayout(false);
+            this.panel_mode.PerformLayout();
+            this.panel_ram.ResumeLayout(false);
+            this.panel_ram.PerformLayout();
+            this.panel_cpu.ResumeLayout(false);
+            this.panel_cpu.PerformLayout();
+            this.panel_storage.ResumeLayout(false);
+            this.panel_storage.PerformLayout();
+            this.panel_screen.ResumeLayout(false);
+            this.panel_screen.PerformLayout();
+            this.panel_demand.ResumeLayout(false);
+            this.panel_demand.PerformLayout();
+            this.panel_price.ResumeLayout(false);
+            this.panel_price.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -917,19 +946,21 @@
         private MaterialSkin.Controls.MaterialRadioButton radio_price_500_700;
         private MaterialSkin.Controls.MaterialRadioButton radio_price_700_1000;
         private MaterialSkin.Controls.MaterialRadioButton radio_price_1000;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel_mode;
+        private System.Windows.Forms.Panel panel_ram;
+        private System.Windows.Forms.Panel panel_cpu;
+        private System.Windows.Forms.Panel panel_storage;
+        private System.Windows.Forms.Panel panel_screen;
+        private System.Windows.Forms.Panel panel_demand;
+        private System.Windows.Forms.Panel panel_price;
         private MaterialSkin.Controls.MaterialRadioButton radio_ram_all;
         private MaterialSkin.Controls.MaterialRadioButton radio_cpu_all;
         private MaterialSkin.Controls.MaterialRadioButton radio_storage_all;
         private MaterialSkin.Controls.MaterialRadioButton radio_screen_all;
         private MaterialSkin.Controls.MaterialRadioButton radio_demand_all;
         private MaterialSkin.Controls.MaterialRadioButton radio_price_all;
+        private MaterialSkin.Controls.MaterialRaisedButton btn_clear;
+        private MaterialSkin.Controls.MaterialRaisedButton btn_analyze;
     }
 }
 

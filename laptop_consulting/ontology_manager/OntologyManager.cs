@@ -7,6 +7,8 @@ namespace ontology_manager
 {
     public class OntologyManager
     {
+        public IEnumerable<Laptop.Object> LaptopObjects { get; private set; }
+
         public IEnumerable<Laptop.Object> LaptopBuilds { get; private set; }
 
         public IEnumerable<string> PcBuilds { get; private set; }
@@ -26,8 +28,17 @@ namespace ontology_manager
             PcBuilds = pcBuilds;
 
             string laptopJson = File.ReadAllText(laptopFilePath);
-            var laptopObjects = JsonConvert.DeserializeObject<IEnumerable<Laptop.Object>>(laptopJson);
-            LaptopBuilds = laptopObjects.Where(l => l.HasName != null);
+            LaptopObjects = JsonConvert.DeserializeObject<IEnumerable<Laptop.Object>>(laptopJson);
+            LaptopBuilds = LaptopObjects.Where(l => l.HasName != null);
+
+            var laptopbuild = LaptopBuilds.First();
+            var misces = laptopbuild.HasMisc;
+
+
+            var misc = misces.First();
+            var valueMisc = LaptopObjects.Where(l => l.Id == misc.Id).First();
+            var title = valueMisc.HasTitle.First().Value;
+            var desc = valueMisc.HasDesc.First().Value;
         }
     }
 }

@@ -4,12 +4,16 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
+<<<<<<< HEAD
 
 [assembly: AssemblyTitle("laptop_consulting")]
+=======
+[assembly: AssemblyTitle("Laptop_Resuilt")]
+>>>>>>> 84af773b498c8c302f0c68aca341b34e197283e0
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("laptop_consulting")]
+[assembly: AssemblyProduct("Laptop_Resuilt")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

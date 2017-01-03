@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Windows.Forms;
+using ontology_manager.Laptop;
+using ontology_manager;
+using System.IO;
 
-namespace laptop_consulting
+namespace Laptop_Resuilt
 {
     static class Program
     {
