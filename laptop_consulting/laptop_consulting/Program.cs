@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace laptop_consulting
@@ -14,6 +11,8 @@ namespace laptop_consulting
         [STAThread]
         static void Main()
         {
+            Ontology ontology = new Ontology();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());

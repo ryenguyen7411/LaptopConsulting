@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Laptop_Resuilt.Laptop
+﻿namespace Laptop_Resuilt.Laptop
 {
     class Laptop
     {
@@ -18,95 +12,51 @@ namespace Laptop_Resuilt.Laptop
 
         public int Id
         {
-            get
-            {
-                return _id;
-            }
+            get { return _id; }
 
-            set
-            {
-                _id = value;
-            }
+            set { _id = value; }
         }
 
         public string Name
         {
-            get
-            {
-                return _name;
-            }
+            get { return _name; }
 
-            set
-            {
-                _name = value;
-            }
+            set { _name = value; }
         }
 
         public float Price
         {
-            get
-            {
-                return _price;
-            }
+            get { return _price; }
 
-            set
-            {
-                _price = value;
-            }
+            set { _price = value; }
         }
 
         public string Reviews
         {
-            get
-            {
-                return _reviews;
-            }
+            get { return _reviews; }
 
-            set
-            {
-                _reviews = value;
-            }
+            set { _reviews = value; }
         }
 
         public string Detail_decription
         {
-            get
-            {
-                return _detail_decription;
-            }
+            get { return _detail_decription; }
 
-            set
-            {
-                _detail_decription = value;
-            }
+            set { _detail_decription = value; }
         }
 
         public string Pros
         {
-            get
-            {
-                return _pros;
-            }
+            get { return _pros; }
 
-            set
-            {
-                _pros = value;
-            }
+            set { _pros = value; }
         }
 
         public string Cons
         {
-            get
-            {
-                return _cons;
-            }
+            get { return _cons; }
 
-            set
-            {
-                _cons = value;
-            }
+            set { _cons = value; }
         }
-
-
     }
 }

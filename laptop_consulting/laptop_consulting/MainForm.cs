@@ -1,13 +1,5 @@
-﻿using MaterialSkin.Controls;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System;
+using MaterialSkin.Controls;
 
 namespace laptop_consulting
 {
@@ -20,7 +12,6 @@ namespace laptop_consulting
 
         private void materialRadioButton12_CheckedChanged(object sender, EventArgs e)
         {
-
         }
     }
 }

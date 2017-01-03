@@ -21,7 +21,7 @@ namespace ontology_manager
             foreach (var hasValues in pcObjects.Where(pc => pc.HasValue != null).Select(pc => pc.HasValue))
             {
                 pcBuilds.AddRange(
-                    hasValues.Where(hv => hv.Value != null && hv.Value.Contains("cpu:")).Select(v => v.Value));
+                    hasValues.Where(hv => hv.Value != null /*&& hv.Value.Contains("cpu:")*/).Select(v => v.Value));
             }
             PcBuilds = pcBuilds;
 
