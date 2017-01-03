@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using ontology_manager.Laptop;
-using ontology_manager;
-using System.IO;
+using laptop_consulting;
 
 namespace Laptop_Resuilt
 {
@@ -15,6 +13,7 @@ namespace Laptop_Resuilt
         static void Main()
         {
             Ontology ontology = new Ontology();
+            var pcBuilds = ontology.PcBuilds;
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

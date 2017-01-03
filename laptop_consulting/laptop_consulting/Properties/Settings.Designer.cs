@@ -8,16 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-<<<<<<< HEAD
-namespace laptop_consulting.Properties {
-    
-    
-=======
 namespace Laptop_Resuilt.Properties
 {
-
-
->>>>>>> 84af773b498c8c302f0c68aca341b34e197283e0
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {

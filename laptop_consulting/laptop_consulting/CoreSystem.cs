@@ -1,11 +1,8 @@
-﻿using Laptop_Resuilt.Laptop;
-using ontology_manager;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Laptop_Resuilt.Laptop;
+using ontology_manager;
 
 namespace Laptop_Resuilt
 {
@@ -13,6 +10,7 @@ namespace Laptop_Resuilt
     {
         public static List<m_laptop> laptop = new List<m_laptop>();
         public static OntologyManager manager;
+
         public static void init()
         {
             string currentDirectory = Directory.GetCurrentDirectory();
@@ -40,7 +38,7 @@ namespace Laptop_Resuilt
             if (_misces == null)
                 return null;
 
-            for(int i = 0; i < _misces.Count(); i++)
+            for (int i = 0; i < _misces.Count(); i++)
             {
                 var valueMisc = manager.LaptopObjects.Where(l => l.Id == _misces[i].Id).First();
                 var title = valueMisc.HasTitle.First().Value;
@@ -58,11 +56,6 @@ namespace Laptop_Resuilt
         public static void forward_chaining()
         {
             // for(int i=0;i<laptop)
-
         }
-
-
-
-
     }
 }
