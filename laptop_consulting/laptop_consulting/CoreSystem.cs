@@ -112,11 +112,39 @@ namespace Laptop_Resuilt
 
             return null;
         }
-
-
-        public static void forward_chaining()
+        public static int matched( List<string> Known,m_laptop laptop) // bộ so khớp
         {
-            // for(int i=0;i<laptop)
+            int count = 0; // số sự kiện khớp
+            // so sánh sự kiện trong Known với laptop;
+            return count;
+
+         //   for ( int i =0;i<)
         }
+
+
+        public static void forward_chaining(List<string>Input)// bộ suy diễn
+        {
+            // khởi tạo Known
+            List<string> Known = new List<string>();
+            List<m_laptop> Output = new List<m_laptop>();
+            for (int i = 0; i < Input.Count; i++)
+            {
+                Known.Add(Input[i]);
+
+            }
+
+            // duyệt tập luật được lưu
+
+            for (int i = 0; i < laptop.Count; i++)
+            {
+                if (matched(Known,laptop[i])>0)
+                {
+                    Output.Add(laptop[i]);
+                }
+            }
+
+        }
+
+
     }
 }
