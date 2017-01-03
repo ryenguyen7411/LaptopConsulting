@@ -19,6 +19,9 @@ namespace unit_test
             Assert.IsNotNull(manager);
             Assert.IsNotNull(manager.PcObjects);
             Assert.IsNotNull(manager.LaptopObjects);
+            
         }
+
+       
     }
 }
