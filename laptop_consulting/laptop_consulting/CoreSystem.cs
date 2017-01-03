@@ -19,26 +19,33 @@ namespace Laptop_Resuilt
             string pcPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\pc.v1.json");
             string laptopPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\laptop.v1.json");
 
-           manager = new OntologyManager(pcPath, laptopPath);
+            manager = new OntologyManager(pcPath, laptopPath);
         }
 
-        public static  void Load_Laptop()
+        public static void Load_Laptop()
         {
-             for( int i=0;i<manager.LaptopBuilds.Count();i++)
+            for (int i = 0; i < manager.LaptopBuilds.Count(); i++)
             {
-                //laptop[i]._cons = manager.LaptopBuilds.
+                //laptop[i]._cons=manager.
             }
         }
-        
+
+        public static string GetMiscValue(int laptopIndex)
+        {
+            //var _misces = manager.LaptopBuilds.
+
+            return null;
+        }
+
 
         public static void forward_chaining()
         {
-           // for(int i=0;i<laptop)
+            // for(int i=0;i<laptop)
 
         }
 
 
 
-        
+
     }
 }
