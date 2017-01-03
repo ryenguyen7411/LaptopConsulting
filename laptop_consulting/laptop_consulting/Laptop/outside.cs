@@ -8,12 +8,14 @@ namespace Laptop_Resuilt.Laptop
 {
     class outside
     {
-        private string _operatingSystem;
-        private string _weight;
-        private string _color;
-        private string _length;
-        private string _width;
-        private string _panelCoating;
-        private string thickness;
+        public  string _operatingSystem;
+        public string _weight;
+        public string _color;
+        public string _length;
+        public string _width;
+        public string _panelCoating;
+        public string thickness;
+        public string price;
+
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace laptop_consulting
+﻿namespace Laptop_Resuilt
 {
     partial class MainForm
     {

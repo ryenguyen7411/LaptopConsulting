@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace laptop_consulting
+namespace Laptop_Resuilt
 {
     public partial class MainForm : MaterialForm
     {

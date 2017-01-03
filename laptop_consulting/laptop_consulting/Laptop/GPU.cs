@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Laptop_Resuilt.Laptop
 {
-    class Batttery
+    class GPU
     {
-        public string _capacity;
-        public string _name;
-        
+        public string m_decription;
+        public string m_name;
+        public string m_ram;
+
     }
 }

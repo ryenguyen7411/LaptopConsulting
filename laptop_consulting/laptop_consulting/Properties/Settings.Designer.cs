@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace laptop_consulting.Properties
+namespace Laptop_Resuilt.Properties
 {
 
 

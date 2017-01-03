@@ -49,9 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoreSystem.cs" />
     <Compile Include="Laptop\Batttery.cs" />
     <Compile Include="Laptop\CPU.cs" />
-    <Compile Include="Laptop\Laptop.cs" />
+    <Compile Include="Laptop\GPU.cs" />
+    <Compile Include="Laptop\m_laptop.cs" />
     <Compile Include="Laptop\outside.cs" />
     <Compile Include="Laptop\Screen.cs" />
     <Compile Include="MainForm.cs">

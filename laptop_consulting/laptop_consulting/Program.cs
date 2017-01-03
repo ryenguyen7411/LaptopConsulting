@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ontology_manager.Laptop;
+using ontology_manager;
+using System.IO;
 
-namespace laptop_consulting
+namespace Laptop_Resuilt
 {
     static class Program
     {
@@ -16,7 +19,10 @@ namespace laptop_consulting
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            //Application.Run(new MainForm());
+            CoreSystem.init();
+           
+
         }
     }
 }
