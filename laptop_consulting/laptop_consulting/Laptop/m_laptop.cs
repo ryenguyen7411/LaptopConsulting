@@ -1,6 +1,6 @@
 ﻿namespace Laptop_Resuilt.Laptop
 {
-    class m_laptop
+    public class m_laptop
     {
         public string _name;
         public outside _outside;

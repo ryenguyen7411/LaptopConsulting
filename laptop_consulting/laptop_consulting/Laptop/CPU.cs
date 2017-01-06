@@ -1,6 +1,6 @@
 ﻿namespace Laptop_Resuilt.Laptop
 {
-    class CPU
+    public class CPU
     {
         public string _decriptionCPU;
         public string m_name;

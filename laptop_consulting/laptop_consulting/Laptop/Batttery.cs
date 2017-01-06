@@ -1,6 +1,6 @@
 ﻿namespace Laptop_Resuilt.Laptop
 {
-    class Batttery
+    public class Batttery
     {
         public string _capacity;
         public string _name;

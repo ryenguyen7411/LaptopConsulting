@@ -1,6 +1,6 @@
 ﻿namespace Laptop_Resuilt.Laptop
 {
-    class outside
+    public class outside
     {
         public string _operatingSystem;
         public string _weight;

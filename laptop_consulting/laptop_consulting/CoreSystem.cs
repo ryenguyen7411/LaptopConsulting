@@ -11,7 +11,7 @@ namespace Laptop_Resuilt
         public static readonly string PRICE = "prices";
         public static readonly string SCREENSIZE = "screensize";
         public static readonly string PROS = "pros";
-        public static readonly string CONS = "cons";
+        public static readonly string CONS= "cons";
         public static readonly string LENGTH = "length";
         public static readonly string WIDTH = "width";
         public static readonly string THICKNESS = "thickness";
@@ -29,14 +29,13 @@ namespace Laptop_Resuilt
         public static readonly string COLOR = "colours";
         public static readonly string WEIGHT = "weightlbs";
         public static readonly string CAPACITY = "batteryheavy";
-        public static readonly string LONG_DESCRIPTION = "longdesc";
-    }
+        public static readonly string LONG_DECRIPTION = "longdesc";
+	}
 
-    static class CoreSystem
-    {
+	public static class CoreSystem
+	{
         public static List<m_laptop> laptop = new List<m_laptop>();
         public static OntologyManager manager;
-        
 
         public static void init()
         {
@@ -67,28 +66,34 @@ namespace Laptop_Resuilt
                 new_laptop._gpu.m_decription = GetMiscValue(i, Constants.GPUDescription);
                 new_laptop._gpu.m_name = GetMiscValue(i, Constants.GPU);
 
+
                 new_laptop._cpu._decriptionCPU = GetMiscValue(i, Constants.CPUDescription);
                 new_laptop._cpu.m_name = GetMiscValue(i, Constants.CPU);
                 new_laptop._cpu.m_ram = GetMiscValue(i, Constants.RAM);
 
                 new_laptop._screen._screenResolution = GetMiscValue(i, Constants.SCREEN_RESOLUTION);
+
                 new_laptop._battery._capacity = GetMiscValue(i, Constants.CAPACITY);
 
                 new_laptop._cons = GetMiscValue(i, Constants.CONS);
                 new_laptop._pros = GetMiscValue(i, Constants.PROS);
 
-                new_laptop._detail_decription = GetMiscValue(i, Constants.LONG_DESCRIPTION);
+                new_laptop._detail_decription = GetMiscValue(i, Constants.LONG_DECRIPTION);
 
                 laptop.Add(new_laptop);
+                
             }
         }
         public static string get_name(int laptopIndex)
         {
-            var _names = manager.LaptopBuilds.ElementAt(laptopIndex).HasName;
-            if (_names == null)
+            var _name = manager.LaptopBuilds.ElementAt(laptopIndex).HasName;
+            if ( _name==null)
+            {
                 return null;
-
-            return _names[0].Value;
+            }
+           return  _name[0].Value;
+            
+          //  return null;
         }
 
         public static string GetMiscValue(int laptopIndex, string miscTitle)
@@ -111,10 +116,39 @@ namespace Laptop_Resuilt
 
             return null;
         }
+        public static int matched( List<string> Known, m_laptop _laptop) // bộ so khớp
+        {
+            int count = 0; // số sự kiện khớp
+            // so sánh sự kiện trong Known với laptop;
+            return count;
+
+         //   for ( int i =0;i<)
+        }
+
 
         public static void ForwardChaining(Dictionary<string, string> inputs)
         {
+            // khởi tạo Known
+            List<string> Known = new List<string>();
+            List<m_laptop> Output = new List<m_laptop>();
+            for (int i = 0; i < inputs.Count; i++)
+            {
+                Known.Add(inputs.ElementAt(i).Value);
+            // for(int i=0;i<laptop)
+            }
+
+            // duyệt tập luật được lưu
+
+            for (int i = 0; i < laptop.Count; i++)
+            {
+                if (matched(Known,laptop[i])>0)
+                {
+                    Output.Add(laptop[i]);
+                }
+            }
 
         }
+
+
     }
 }
