@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using laptop_consulting.Pc;
+using Laptop_Resuilt.Pc;
 using ontology_manager;
 
-namespace laptop_consulting
+namespace Laptop_Resuilt
 {
     public class Ontology
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using laptop_consulting;
+using Laptop_Resuilt;
 
 namespace Laptop_Resuilt
 {

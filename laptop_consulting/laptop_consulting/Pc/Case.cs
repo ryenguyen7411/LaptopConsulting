@@ -1,4 +1,4 @@
-﻿namespace laptop_consulting.Pc
+﻿namespace Laptop_Resuilt.Pc
 {
     public class Case : Part
     {

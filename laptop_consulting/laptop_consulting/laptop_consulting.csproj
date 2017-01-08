@@ -66,6 +66,12 @@
     <Compile Include="Ontology.cs" />
     <Compile Include="Pc\Case.cs" />
     <Compile Include="Pc\Cpu.cs" />
+    <Compile Include="Pc\Form_demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pc\Form_demo.Designer.cs">
+      <DependentUpon>Form_demo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pc\Gpu.cs" />
     <Compile Include="Pc\Hdd.cs" />
     <Compile Include="Pc\Hsf.cs" />
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pc\Form_demo.resx">
+      <DependentUpon>Form_demo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace laptop_consulting
+namespace Laptop_Resuilt
 {
     static class SubstringExtensions
     {
