@@ -12,7 +12,5 @@
         public Ssd Ssd { get; set; }
         public Psu Psu { get; set; }
         public Case Case { get; set; }
-        public decimal Total { get; set; }
-        //public DateTime LastUpdated { get; set; }
     }
 }

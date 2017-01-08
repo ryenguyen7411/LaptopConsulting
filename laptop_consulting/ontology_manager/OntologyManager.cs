@@ -11,21 +11,27 @@ namespace ontology_manager
 
         public IEnumerable<Laptop.Object> LaptopBuilds { get; private set; }
 
-        public IEnumerable<string> PcBuilds { get; private set; }
+        public IList<Pc.Object> PcBuilds { get; private set; }
+
+        public IEnumerable<string> PcVer1s { get; private set; }
 
         public OntologyManager(string pcFilePath, string laptopFilePath)
         {
             string pcJson = File.ReadAllText(pcFilePath);
-            var pcObjects = JsonConvert.DeserializeObject<IEnumerable<Pc.Object>>(pcJson);
 
-            // Temporary workaround: Currently cannot get all PC builds
+
+            PcBuilds = JsonConvert.DeserializeObject<IList<Pc.Object>>(pcJson);
+
+            var pcObjects = JsonConvert.DeserializeObject<IEnumerable<Pc.Ver1.Object>>(pcJson);
+
+            //Temporary workaround: Currently cannot get all PC builds
             var pcBuilds = new List<string>();
             foreach (var hasValues in pcObjects.Where(pc => pc.HasValue != null).Select(pc => pc.HasValue))
             {
                 pcBuilds.AddRange(
                     hasValues.Where(hv => hv.Value != null /*&& hv.Value.Contains("cpu:")*/).Select(v => v.Value));
             }
-            PcBuilds = pcBuilds;
+            PcVer1s = pcBuilds;
 
             string laptopJson = File.ReadAllText(laptopFilePath);
             LaptopObjects = JsonConvert.DeserializeObject<IEnumerable<Laptop.Object>>(laptopJson);

@@ -15,8 +15,8 @@ namespace Laptop_Resuilt
             int posB = value.LastIndexOf(b);
             if (posBs.Count >= 1)
             {
-                posB = posBs[0];
-                if (posBs.Count > 1)
+                if (posA == 0) posB = posBs[0];
+                else if (posBs.Count > 1)
                     posB = posBs[1];
             }
 
