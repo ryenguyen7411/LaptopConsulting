@@ -116,37 +116,64 @@ namespace Laptop_Resuilt
 
             return null;
         }
-        public static int matched( List<string> Known, m_laptop _laptop) // bộ so khớp
+        public static int matched(Dictionary<string, string> Known, m_laptop _laptop) // bộ so khớp
         {
             int count = 0; // số sự kiện khớp
             // so sánh sự kiện trong Known với laptop;
-            return count;
+            for( int i=0;i<Known.Count;i++)
+            {
+                if (Known.ContainsValue(_laptop._outside.price))
+                {
+                    count = count + 1;
+                }
+                if ( Known.ContainsValue(_laptop._outside._weight))
+                {
+                    count++;
 
-         //   for ( int i =0;i<)
+                }
+                if (Known.ContainsValue(_laptop._outside._width))
+                {
+                    count++;
+                }
+                if (Known.ContainsValue(_laptop._cpu.m_ram))
+                {
+                    count++;
+                }
+              
+            }
+            //......
+            return count;
         }
 
 
-        public static void ForwardChaining(Dictionary<string, string> inputs)
+        public static   Dictionary<int, m_laptop> ForwardChaining(Dictionary<string, string> inputs)
         {
             // khởi tạo Known
-            List<string> Known = new List<string>();
-            List<m_laptop> Output = new List<m_laptop>();
-            for (int i = 0; i < inputs.Count; i++)
-            {
-                Known.Add(inputs.ElementAt(i).Value);
-            // for(int i=0;i<laptop)
-            }
+            Dictionary<string, string> Known = new Dictionary<string, string>();
 
-            // duyệt tập luật được lưu
+          Dictionary<int, m_laptop>  output= new Dictionary<int, m_laptop>();
 
+            Known = inputs;
+            int index = 0;
             for (int i = 0; i < laptop.Count; i++)
             {
                 if (matched(Known,laptop[i])>0)
                 {
-                    Output.Add(laptop[i]);
+                    output.Add(index,laptop[i]);
+                    index++;
                 }
+                
             }
+            return output;
+        }
+        public static void Community_User (Dictionary<string,string> Known)
+        {
+            
+        }
+        public static void Back_ForwardChaining( Dictionary<string,string> add_input)
+        {
 
+                
         }
 
 
