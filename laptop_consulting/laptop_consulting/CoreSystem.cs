@@ -11,7 +11,7 @@ namespace Laptop_Resuilt
         public static readonly string PRICE = "prices";
         public static readonly string SCREENSIZE = "screensize";
         public static readonly string PROS = "pros";
-        public static readonly string CONS= "cons";
+        public static readonly string CONS = "cons";
         public static readonly string LENGTH = "length";
         public static readonly string WIDTH = "width";
         public static readonly string THICKNESS = "thickness";
@@ -30,10 +30,10 @@ namespace Laptop_Resuilt
         public static readonly string WEIGHT = "weightlbs";
         public static readonly string CAPACITY = "batteryheavy";
         public static readonly string LONG_DECRIPTION = "longdesc";
-	}
+    }
 
-	public static class CoreSystem
-	{
+    public static class CoreSystem
+    {
         public static List<m_laptop> laptop = new List<m_laptop>();
         public static OntologyManager manager;
 
@@ -81,19 +81,19 @@ namespace Laptop_Resuilt
                 new_laptop._detail_decription = GetMiscValue(i, Constants.LONG_DECRIPTION);
 
                 laptop.Add(new_laptop);
-                
+
             }
         }
         public static string get_name(int laptopIndex)
         {
             var _name = manager.LaptopBuilds.ElementAt(laptopIndex).HasName;
-            if ( _name==null)
+            if (_name == null)
             {
                 return null;
             }
-           return  _name[0].Value;
-            
-          //  return null;
+            return _name[0].Value;
+
+            //  return null;
         }
 
         public static string GetMiscValue(int laptopIndex, string miscTitle)
@@ -120,13 +120,13 @@ namespace Laptop_Resuilt
         {
             int count = 0; // số sự kiện khớp
             // so sánh sự kiện trong Known với laptop;
-            for( int i=0;i<Known.Count;i++)
+            for (int i = 0; i < Known.Count; i++)
             {
                 if (Known.ContainsValue(_laptop._outside.price))
                 {
                     count = count + 1;
                 }
-                if ( Known.ContainsValue(_laptop._outside._weight))
+                if (Known.ContainsValue(_laptop._outside._weight))
                 {
                     count++;
 
@@ -139,41 +139,41 @@ namespace Laptop_Resuilt
                 {
                     count++;
                 }
-              
+
             }
             //......
             return count;
         }
 
 
-        public static   Dictionary<int, m_laptop> ForwardChaining(Dictionary<string, string> inputs)
+        public static Dictionary<int, m_laptop> ForwardChaining(Dictionary<string, string> inputs)
         {
             // khởi tạo Known
             Dictionary<string, string> Known = new Dictionary<string, string>();
 
-          Dictionary<int, m_laptop>  output= new Dictionary<int, m_laptop>();
+            Dictionary<int, m_laptop> output = new Dictionary<int, m_laptop>();
 
             Known = inputs;
             int index = 0;
             for (int i = 0; i < laptop.Count; i++)
             {
-                if (matched(Known,laptop[i])>0)
+                if (matched(Known, laptop[i]) > 0)
                 {
-                    output.Add(index,laptop[i]);
+                    output.Add(index, laptop[i]);
                     index++;
                 }
-                
+
             }
             return output;
         }
-        public static void Community_User (Dictionary<string,string> Known)
-        {
-            
-        }
-        public static void Back_ForwardChaining( Dictionary<string,string> add_input)
+        public static void Community_User(Dictionary<string, string> Known)
         {
 
-                
+        }
+        public static void Back_ForwardChaining(Dictionary<string, string> add_input)
+        {
+
+
         }
 
 
