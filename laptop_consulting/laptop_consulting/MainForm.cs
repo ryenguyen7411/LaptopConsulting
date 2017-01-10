@@ -23,8 +23,9 @@ namespace Laptop_Resuilt
             //string[] s = input.Split(',');
             Dictionary<string, string> array_input = new Dictionary<string, string>();
 
-            array_input.Add("Ram", "2GB");
-            array_input.Add("stronge", "4.5");
+            //  array_input.Add("Ram", "2GB");
+            //  array_input.Add("stronge", "4.5");
+            array_input = GetUserInputValues();
             /* for(int i=0;i< s.Count();i++)
              {
                  string[] k = s[i].Split(':');

@@ -152,20 +152,33 @@ namespace Laptop_Resuilt
             Dictionary<string, string> Known = new Dictionary<string, string>();
 
             Dictionary<int, m_laptop> output = new Dictionary<int, m_laptop>();
+
+            Dictionary<int, int> count = new Dictionary<int, int>();
             int index = 0;
-            foreach (var value in inputs)
+            Known = inputs;
+
+            for( int i=0;i<laptop.Count;i++)
+            {
+                if ( matched(Known,laptop[i])>0)
+                {
+                    output.Add(index, laptop[i]);
+                    index++;
+                }
+            }
+           /* foreach (var value in inputs)
             {
                 Known.Add(value.Key, value.Value);
             }
             for (int i = 0; i < laptop.Count; i++)
             {
-                if (matched(Known, laptop[i]) > 0)
-                {
-                    output.Add(index, laptop[i]);
-                    index++;
-                }
+             
+                    //count.Add(index, matched(Known, laptop[i]));
+                  
+                
+                
+            }*/
 
-            }
+    
 
 
 
