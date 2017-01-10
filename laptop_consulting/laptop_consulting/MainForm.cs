@@ -17,7 +17,35 @@ namespace Laptop_Resuilt
 
         private void btn_analyze_Click(object sender, EventArgs e)
         {
-            CoreSystem.ForwardChaining(GetUserInputValues());
+            //CoreSystem.ForwardChaining(GetUserInputValues());
+
+           // string input = textBox1.Text;
+            //string[] s = input.Split(',');
+            Dictionary<string, string> array_input = new Dictionary<string, string>();
+
+            array_input.Add("Ram", "2GB");
+            array_input.Add("stronge", "4.5");
+            /* for(int i=0;i< s.Count();i++)
+             {
+                 string[] k = s[i].Split(':');
+                 array_input.Add(k[0].ToString(), k[1].ToString());
+
+
+
+             }*/
+            Dictionary<int, Laptop.m_laptop> output = new Dictionary<int, Laptop.m_laptop>();
+            output = CoreSystem.ForwardChaining(array_input);
+            string say = "";
+            for (int i = 0; i < output.Count; i++)
+            {
+
+                Laptop.m_laptop obj = new Laptop.m_laptop();
+                obj = (Laptop.m_laptop)output[i];
+                say= say + "\r\n" + obj._name.ToString();
+
+
+            }
+            MessageBox.Show(say.ToString() ,"Thông báo");
         }
 
         private Dictionary<string, string> GetUserInputValues()
