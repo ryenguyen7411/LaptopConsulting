@@ -24,7 +24,7 @@ namespace Laptop_Resuilt
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new demo_track());
+            Application.Run(new MainForm());
         }
 
         // Lop tao file PC ontology json

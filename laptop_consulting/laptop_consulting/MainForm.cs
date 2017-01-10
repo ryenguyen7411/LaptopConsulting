@@ -26,15 +26,24 @@ namespace Laptop_Resuilt
 
             var _ram = panel_ram.Controls.OfType<RadioButton>()
                 .FirstOrDefault(r => r.Checked);
-            _inputValues.Add(Constants.RAM, _ram.Text);
+            if(_ram.Text.CompareTo("All") == 0)
+            {
+                _inputValues.Add(Constants.RAM, _ram.Text);
+            }
 
             var _cpu = panel_cpu.Controls.OfType<RadioButton>()
                 .FirstOrDefault(r => r.Checked);
-            _inputValues.Add(Constants.CPU, _cpu.Text);
+            if (_cpu.Text.CompareTo("All") == 0)
+            {
+                _inputValues.Add(Constants.CPU, _cpu.Text);
+            }
 
             var _storage = panel_storage.Controls.OfType<RadioButton>()
                 .FirstOrDefault(r => r.Checked);
-            _inputValues.Add(Constants.STORAGE, _storage.Text);
+            if (_storage.Text.CompareTo("All") == 0)
+            {
+                _inputValues.Add(Constants.STORAGE, _storage.Text);
+            }
 
             return _inputValues;
         }
