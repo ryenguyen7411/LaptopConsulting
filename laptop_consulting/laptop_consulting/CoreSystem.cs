@@ -152,18 +152,25 @@ namespace Laptop_Resuilt
             Dictionary<string, string> Known = new Dictionary<string, string>();
 
             Dictionary<int, m_laptop> output = new Dictionary<int, m_laptop>();
-
-            Known = inputs;
             int index = 0;
-            for (int i = 0; i < laptop.Count; i++)
+            foreach ( var value in inputs)
             {
-                if (matched(Known, laptop[i]) > 0)
+                Known.Add(value.Key, value.Value);
+                for (int i = 0; i < laptop.Count; i++)
                 {
-                    output.Add(index, laptop[i]);
-                    index++;
+                    if (matched(Known, laptop[i]) > 0)
+                    {
+                        output.Add(index, laptop[i]);
+                        index++;
+                    }
+
                 }
 
             }
+
+           
+
+
             return output;
         }
         public static void Community_User(Dictionary<string, string> Known)
