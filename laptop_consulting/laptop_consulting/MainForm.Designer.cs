@@ -171,9 +171,9 @@
             this.radio_ram_1gb.MouseState = MaterialSkin.MouseState.HOVER;
             this.radio_ram_1gb.Name = "radio_ram_1gb";
             this.radio_ram_1gb.Ripple = true;
-            this.radio_ram_1gb.Size = new System.Drawing.Size(75, 30);
+            this.radio_ram_1gb.Size = new System.Drawing.Size(70, 30);
             this.radio_ram_1gb.TabIndex = 9;
-            this.radio_ram_1gb.Text = "1 GB";
+            this.radio_ram_1gb.Text = "1GB";
             this.radio_ram_1gb.UseVisualStyleBackColor = true;
             // 
             // radio_ram_2gb
@@ -187,9 +187,9 @@
             this.radio_ram_2gb.MouseState = MaterialSkin.MouseState.HOVER;
             this.radio_ram_2gb.Name = "radio_ram_2gb";
             this.radio_ram_2gb.Ripple = true;
-            this.radio_ram_2gb.Size = new System.Drawing.Size(75, 30);
+            this.radio_ram_2gb.Size = new System.Drawing.Size(70, 30);
             this.radio_ram_2gb.TabIndex = 10;
-            this.radio_ram_2gb.Text = "2 GB";
+            this.radio_ram_2gb.Text = "2GB";
             this.radio_ram_2gb.UseVisualStyleBackColor = true;
             // 
             // radio_ram_4gb
@@ -203,9 +203,9 @@
             this.radio_ram_4gb.MouseState = MaterialSkin.MouseState.HOVER;
             this.radio_ram_4gb.Name = "radio_ram_4gb";
             this.radio_ram_4gb.Ripple = true;
-            this.radio_ram_4gb.Size = new System.Drawing.Size(75, 30);
+            this.radio_ram_4gb.Size = new System.Drawing.Size(70, 30);
             this.radio_ram_4gb.TabIndex = 11;
-            this.radio_ram_4gb.Text = "4 GB";
+            this.radio_ram_4gb.Text = "4GB";
             this.radio_ram_4gb.UseVisualStyleBackColor = true;
             // 
             // radio_ram_8gb
@@ -219,9 +219,9 @@
             this.radio_ram_8gb.MouseState = MaterialSkin.MouseState.HOVER;
             this.radio_ram_8gb.Name = "radio_ram_8gb";
             this.radio_ram_8gb.Ripple = true;
-            this.radio_ram_8gb.Size = new System.Drawing.Size(75, 30);
+            this.radio_ram_8gb.Size = new System.Drawing.Size(70, 30);
             this.radio_ram_8gb.TabIndex = 12;
-            this.radio_ram_8gb.Text = "8 GB";
+            this.radio_ram_8gb.Text = "8GB";
             this.radio_ram_8gb.UseVisualStyleBackColor = true;
             // 
             // radio_ram_16gb
@@ -235,9 +235,9 @@
             this.radio_ram_16gb.MouseState = MaterialSkin.MouseState.HOVER;
             this.radio_ram_16gb.Name = "radio_ram_16gb";
             this.radio_ram_16gb.Ripple = true;
-            this.radio_ram_16gb.Size = new System.Drawing.Size(87, 30);
+            this.radio_ram_16gb.Size = new System.Drawing.Size(82, 30);
             this.radio_ram_16gb.TabIndex = 13;
-            this.radio_ram_16gb.Text = "16 GB";
+            this.radio_ram_16gb.Text = "16GB";
             this.radio_ram_16gb.UseVisualStyleBackColor = true;
             // 
             // radio_cpu_celeron
@@ -411,9 +411,9 @@
             this.radio_screen_13.MouseState = MaterialSkin.MouseState.HOVER;
             this.radio_screen_13.Name = "radio_screen_13";
             this.radio_screen_13.Ripple = true;
-            this.radio_screen_13.Size = new System.Drawing.Size(61, 30);
+            this.radio_screen_13.Size = new System.Drawing.Size(120, 30);
             this.radio_screen_13.TabIndex = 24;
-            this.radio_screen_13.Text = "13\"";
+            this.radio_screen_13.Text = "13 inches";
             this.radio_screen_13.UseVisualStyleBackColor = true;
             // 
             // radio_screen_14
@@ -421,15 +421,15 @@
             this.radio_screen_14.AutoSize = true;
             this.radio_screen_14.Depth = 0;
             this.radio_screen_14.Font = new System.Drawing.Font("Roboto", 10F);
-            this.radio_screen_14.Location = new System.Drawing.Point(245, 0);
+            this.radio_screen_14.Location = new System.Drawing.Point(305, 0);
             this.radio_screen_14.Margin = new System.Windows.Forms.Padding(0);
             this.radio_screen_14.MouseLocation = new System.Drawing.Point(-1, -1);
             this.radio_screen_14.MouseState = MaterialSkin.MouseState.HOVER;
             this.radio_screen_14.Name = "radio_screen_14";
             this.radio_screen_14.Ripple = true;
-            this.radio_screen_14.Size = new System.Drawing.Size(61, 30);
+            this.radio_screen_14.Size = new System.Drawing.Size(120, 30);
             this.radio_screen_14.TabIndex = 25;
-            this.radio_screen_14.Text = "14\"";
+            this.radio_screen_14.Text = "14 inches";
             this.radio_screen_14.UseVisualStyleBackColor = true;
             // 
             // radio_screen_15_6
@@ -437,15 +437,15 @@
             this.radio_screen_15_6.AutoSize = true;
             this.radio_screen_15_6.Depth = 0;
             this.radio_screen_15_6.Font = new System.Drawing.Font("Roboto", 10F);
-            this.radio_screen_15_6.Location = new System.Drawing.Point(320, 0);
+            this.radio_screen_15_6.Location = new System.Drawing.Point(440, 0);
             this.radio_screen_15_6.Margin = new System.Windows.Forms.Padding(0);
             this.radio_screen_15_6.MouseLocation = new System.Drawing.Point(-1, -1);
             this.radio_screen_15_6.MouseState = MaterialSkin.MouseState.HOVER;
             this.radio_screen_15_6.Name = "radio_screen_15_6";
             this.radio_screen_15_6.Ripple = true;
-            this.radio_screen_15_6.Size = new System.Drawing.Size(79, 30);
+            this.radio_screen_15_6.Size = new System.Drawing.Size(138, 30);
             this.radio_screen_15_6.TabIndex = 26;
-            this.radio_screen_15_6.Text = "15.6\"";
+            this.radio_screen_15_6.Text = "15.6 inches";
             this.radio_screen_15_6.UseVisualStyleBackColor = true;
             // 
             // radio_screen_17
@@ -453,15 +453,15 @@
             this.radio_screen_17.AutoSize = true;
             this.radio_screen_17.Depth = 0;
             this.radio_screen_17.Font = new System.Drawing.Font("Roboto", 10F);
-            this.radio_screen_17.Location = new System.Drawing.Point(415, 0);
+            this.radio_screen_17.Location = new System.Drawing.Point(595, 0);
             this.radio_screen_17.Margin = new System.Windows.Forms.Padding(0);
             this.radio_screen_17.MouseLocation = new System.Drawing.Point(-1, -1);
             this.radio_screen_17.MouseState = MaterialSkin.MouseState.HOVER;
             this.radio_screen_17.Name = "radio_screen_17";
             this.radio_screen_17.Ripple = true;
-            this.radio_screen_17.Size = new System.Drawing.Size(61, 30);
+            this.radio_screen_17.Size = new System.Drawing.Size(120, 30);
             this.radio_screen_17.TabIndex = 27;
-            this.radio_screen_17.Text = "17\"";
+            this.radio_screen_17.Text = "17 inches";
             this.radio_screen_17.UseVisualStyleBackColor = true;
             // 
             // radio_demand_office
@@ -649,7 +649,7 @@
             this.panel_cpu.Controls.Add(this.radio_cpu_corei3);
             this.panel_cpu.Controls.Add(this.radio_cpu_corei5);
             this.panel_cpu.Controls.Add(this.radio_cpu_corei7);
-            this.panel_cpu.Location = new System.Drawing.Point(0, 140);
+            this.panel_cpu.Location = new System.Drawing.Point(0, 80);
             this.panel_cpu.Name = "panel_cpu";
             this.panel_cpu.Size = new System.Drawing.Size(1000, 40);
             this.panel_cpu.TabIndex = 39;
@@ -681,7 +681,7 @@
             this.panel_storage.Controls.Add(this.radio_storage_ssd256gb);
             this.panel_storage.Controls.Add(this.radio_storage_ssd512gb);
             this.panel_storage.Controls.Add(this.radio_storage_hdd1tb);
-            this.panel_storage.Location = new System.Drawing.Point(0, 80);
+            this.panel_storage.Location = new System.Drawing.Point(0, 140);
             this.panel_storage.Name = "panel_storage";
             this.panel_storage.Size = new System.Drawing.Size(1000, 40);
             this.panel_storage.TabIndex = 40;
@@ -712,7 +712,7 @@
             this.panel_screen.Controls.Add(this.radio_screen_14);
             this.panel_screen.Controls.Add(this.radio_screen_15_6);
             this.panel_screen.Controls.Add(this.radio_screen_17);
-            this.panel_screen.Location = new System.Drawing.Point(0, 260);
+            this.panel_screen.Location = new System.Drawing.Point(0, 200);
             this.panel_screen.Name = "panel_screen";
             this.panel_screen.Size = new System.Drawing.Size(1000, 40);
             this.panel_screen.TabIndex = 41;
@@ -744,7 +744,7 @@
             this.panel_demand.Controls.Add(this.radio_demand_graphics);
             this.panel_demand.Controls.Add(this.radio_demand_business);
             this.panel_demand.Controls.Add(this.radio_demand_fashion);
-            this.panel_demand.Location = new System.Drawing.Point(0, 320);
+            this.panel_demand.Location = new System.Drawing.Point(0, 260);
             this.panel_demand.Name = "panel_demand";
             this.panel_demand.Size = new System.Drawing.Size(1000, 40);
             this.panel_demand.TabIndex = 42;
@@ -775,7 +775,7 @@
             this.panel_price.Controls.Add(this.radio_price_500_700);
             this.panel_price.Controls.Add(this.radio_price_700_1000);
             this.panel_price.Controls.Add(this.radio_price_1000);
-            this.panel_price.Location = new System.Drawing.Point(0, 200);
+            this.panel_price.Location = new System.Drawing.Point(0, 320);
             this.panel_price.Name = "panel_price";
             this.panel_price.Size = new System.Drawing.Size(1000, 40);
             this.panel_price.TabIndex = 43;
