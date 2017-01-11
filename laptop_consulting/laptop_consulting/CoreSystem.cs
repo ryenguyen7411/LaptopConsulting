@@ -40,8 +40,8 @@ namespace Laptop_Resuilt
         public static void init()
         {
             string currentDirectory = Directory.GetCurrentDirectory();
-            string pcPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\pc.v1.json");
-            string laptopPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\laptop.v1.json");
+            string pcPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\pc.v1.jsonld");
+            string laptopPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\laptop.v1.jsonld");
 
             manager = new OntologyManager(pcPath, laptopPath);
 
@@ -72,6 +72,7 @@ namespace Laptop_Resuilt
                 new_laptop._cpu.m_ram = GetMiscValue(i, Constants.RAM);
 
                 new_laptop._screen._screenResolution = GetMiscValue(i, Constants.SCREEN_RESOLUTION);
+                new_laptop._screen._screenSize = GetMiscValue(i, Constants.SCREENSIZE);
 
                 new_laptop._battery._capacity = GetMiscValue(i, Constants.CAPACITY);
 
@@ -116,74 +117,74 @@ namespace Laptop_Resuilt
 
             return null;
         }
-        public static int matched(Dictionary<string, string> Known, m_laptop _laptop) // bộ so khớp
+        public static bool matched(Dictionary<string, string> Known, m_laptop _laptop) // bộ so khớp
         {
-            int count = 0; // số sự kiện khớp
             // so sánh sự kiện trong Known với laptop;
             for (int i = 0; i < Known.Count; i++)
             {
-                if (Known.ContainsValue(_laptop._outside.price))
-                {
-                    count = count + 1;
-                }
-                if (Known.ContainsValue(_laptop._outside._weight))
-                {
-                    count++;
+                KeyValuePair<string, string> _element = Known.ElementAt(i);
 
-                }
-                if (Known.ContainsValue(_laptop._outside._width))
+                if (IsEqual(_element.Key, Constants.RAM) && !IsEqual(_element.Value, _laptop._cpu.m_ram))
                 {
-                    count++;
-                }
-                if (Known.ContainsValue(_laptop._cpu.m_ram))
-                {
-                    count++;
+                    return false;
                 }
 
+                if (IsEqual(_element.Key, Constants.CPU) && !IsContains(_laptop._cpu.m_name, _element.Value))
+                {
+                    return false;
+                }
+
+                if (IsEqual(_element.Key, Constants.SCREENSIZE) && !IsEqual(_element.Value, _laptop._screen._screenSize))
+                {
+                    return false;
+                }
+
+                if (IsEqual(_element.Key, Constants.GPU) && !IsContains(_laptop._gpu.m_name, _element.Value))
+                {
+                    return false;
+                }
+
+                if (IsEqual(_element.Key, Constants.STORAGE + "_type") && !IsContains(_laptop.storage, _element.Value))
+                {
+                        return false;
+                }
             }
-            //......
-            return count;
+
+            return true;
         }
 
 
         public static Dictionary<int, m_laptop> ForwardChaining(Dictionary<string, string> inputs)
         {
             // khởi tạo Known
-            Dictionary<string, string> Known = new Dictionary<string, string>();
-
+            Dictionary<string, string> Known = inputs;
             Dictionary<int, m_laptop> output = new Dictionary<int, m_laptop>();
-            int index = 0;
-            foreach (var value in inputs)
-            {
-                Known.Add(value.Key, value.Value);
-            }
+
             for (int i = 0; i < laptop.Count; i++)
             {
-                if (matched(Known, laptop[i]) > 0)
+                if (matched(Known, laptop[i]) == true)
                 {
-                    output.Add(index, laptop[i]);
-                    index++;
+                    output.Add(i, laptop[i]);
                 }
-
             }
-
-
-
-
-
 
             return output;
         }
-        public static void Community_User(Dictionary<string, string> Known)
+
+        public static bool IsEqual(string str1, string str2)
         {
+            if (str1 == null || str2 == null)
+                return false;
 
+            return str1.CompareTo(str2) == 0;
         }
-        public static void Back_ForwardChaining(Dictionary<string, string> add_input)
+
+        public static bool IsContains(string str1, string str2)
         {
+            if (str1 == null || str2 == null)
+                return false;
 
-
+            return str1.Contains(str2);
         }
-
-
     }
 }

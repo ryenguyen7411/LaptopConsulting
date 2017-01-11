@@ -17,36 +17,13 @@ namespace Laptop_Resuilt
 
         private void btn_analyze_Click(object sender, EventArgs e)
         {
-            //CoreSystem.ForwardChaining(GetUserInputValues());
+            Dictionary<int, Laptop.m_laptop> output = CoreSystem.ForwardChaining(GetUserInputValues());
 
-           // string input = textBox1.Text;
-            //string[] s = input.Split(',');
-            Dictionary<string, string> array_input = new Dictionary<string, string>();
+            if (output.Count == 0)
+                MessageBox.Show("Không có sản phẩm phù hợp yêu cầu.", "Message");
 
-            //  array_input.Add("Ram", "2GB");
-            //  array_input.Add("stronge", "4.5");
-            array_input = GetUserInputValues();
-            /* for(int i=0;i< s.Count();i++)
-             {
-                 string[] k = s[i].Split(':');
-                 array_input.Add(k[0].ToString(), k[1].ToString());
-
-
-
-             }*/
-            Dictionary<int, Laptop.m_laptop> output = new Dictionary<int, Laptop.m_laptop>();
-            output = CoreSystem.ForwardChaining(array_input);
-            string say = "";
-            for (int i = 0; i < output.Count; i++)
-            {
-
-                Laptop.m_laptop obj = new Laptop.m_laptop();
-                obj = (Laptop.m_laptop)output[i];
-                say= say + "\r\n" + obj._name.ToString();
-
-
-            }
-            MessageBox.Show(say.ToString() ,"Thông báo");
+            ProductsForm _productsForm = new ProductsForm(output);
+            _productsForm.Show();
         }
 
         private Dictionary<string, string> GetUserInputValues()
@@ -102,7 +79,7 @@ namespace Laptop_Resuilt
         {
             if(tag.CompareTo(Constants.RAM) == 0)
             {
-                input.Add(Constants.RAM, value);
+                input[Constants.RAM] = value;
             }
             else if(tag.CompareTo(Constants.CPU) == 0)
             {
@@ -110,16 +87,16 @@ namespace Laptop_Resuilt
                 {
                     case "Celeron":
                     case "Core M":
-                        input.Add(Constants.CPU, value);
+                        input[Constants.CPU] = value;
                         break;
                     case "Core i3":
-                        input.Add(Constants.CPU, "i3");
+                        input[Constants.CPU] = "i3";
                         break;
                     case "Core i5":
-                        input.Add(Constants.CPU, "i5");
+                        input[Constants.CPU] = "i5";
                         break;
                     case "Core i7":
-                        input.Add(Constants.CPU, "i7");
+                        input[Constants.CPU] = "i7";
                         break;
                     default:
                         break;
@@ -128,40 +105,40 @@ namespace Laptop_Resuilt
             else if(tag.CompareTo(Constants.STORAGE) == 0)
             {
                 string[] _values = value.Split(' ');
-                input.Add(Constants.STORAGE, _values[0]);
-                input.Add(Constants.STORAGE, _values[1]);
+                input[Constants.STORAGE + "_type"] = _values[0];
+                input[Constants.STORAGE + "_value"] = _values[1];
             }
             else if (tag.CompareTo(Constants.SCREENSIZE) == 0)
             {
-                input.Add(Constants.SCREENSIZE, value);
+                input[Constants.SCREENSIZE] = value;
             }
             else if (tag.CompareTo("DEMAND") == 0)
             {
                 switch (value)
                 {
                     case "Offices":
-                        input.Add(Constants.RAM, "2GB");
-                        input.Add(Constants.CPU, "Core M");
-                        input.Add(Constants.GPU, "HD Graphics");
-                        input.Add(Constants.STORAGE, "HDD");
-                        input.Add(Constants.STORAGE, "500GB");
+                        input[Constants.RAM] = "2GB";
+                        input[Constants.CPU] = "Core M";
+                        input[Constants.GPU] = "HD Graphics";
+                        input[Constants.STORAGE + "_type"] = "HDD";
+                        input[Constants.STORAGE + "_value"] = "500GB";
                         break;
                     case "Gaming":
-                        input.Add(Constants.RAM, "8GB");
-                        input.Add(Constants.CPU, "Core i7");
-                        input.Add(Constants.GPU, "GTX");
-                        input.Add(Constants.STORAGE, "HDD");
-                        input.Add(Constants.STORAGE, "1TB");
+                        input[Constants.RAM] = "8GB";
+                        input[Constants.CPU] = "Core i7";
+                        input[Constants.GPU] = "GTX";
+                        input[Constants.STORAGE + "_type"] = "HDD";
+                        input[Constants.STORAGE + "_value"] = "1TB";
                         break;
                     case "Graphics":
-                        input.Add(Constants.RAM, "8GB");
-                        input.Add(Constants.CPU, "i7");
-                        input.Add(Constants.GPU, "GTX");
-                        input.Add(Constants.STORAGE, "SSD");
-                        input.Add(Constants.STORAGE, "512GB");
+                        input[Constants.RAM] = "8GB";
+                        input[Constants.CPU] = "i7";
+                        input[Constants.GPU] = "GTX";
+                        input[Constants.STORAGE + "_type"] = "SSD";
+                        input[Constants.STORAGE + "_value"] = "512GB";
                         break;
                     case "Fashion":
-                        input.Add(Constants.WEIGHT, "4");
+                        input[Constants.WEIGHT] = "4";
                         break;
                     default:
                         break;

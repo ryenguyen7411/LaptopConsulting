@@ -50,9 +50,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Ontology\laptop.v1.json" />
-    <None Include="Ontology\pc.v1.json" />
-    <None Include="Ontology\pc.v2.json" />
+    <None Include="Ontology\laptop.v1.jsonld" />
+    <None Include="Ontology\pc.v1.jsonld" />
+    <None Include="Ontology\pc.v2.jsonld" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
