@@ -30,7 +30,15 @@ namespace Laptop_Resuilt
 
         private void btn_back_products_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
+        }
+
+        private void listview_product_DoubleClick(object sender, EventArgs e)
+        {
+            var selectedItem = listview_product.SelectedItems[0];
+
+            var detailForm = new DetailForm(data.ElementAt(selectedItem.Index).Value);
+            detailForm.Show();
         }
     }
 }

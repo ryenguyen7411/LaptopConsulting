@@ -13,9 +13,24 @@ namespace Laptop_Resuilt
 {
     public partial class DetailForm : MaterialForm
     {
-        public DetailForm()
+        Laptop.m_laptop data;
+
+        public DetailForm(Laptop.m_laptop product)
         {
             InitializeComponent();
+
+            data = product;
+
+            lbl_detail_price.Text = data._outside.price;
+
+            ListViewItem cpu = new ListViewItem("CPU");
+            cpu.SubItems.Add(data._cpu.m_name);
+            listview_detail.Items.Add(cpu);
+        }
+
+        private void materialRaisedButton1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             this.lbl_detail_price = new MaterialSkin.Controls.MaterialLabel();
-            this.materialListView1 = new MaterialSkin.Controls.MaterialListView();
+            this.listview_detail = new MaterialSkin.Controls.MaterialListView();
             this.col_detail_property = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.col_detail_value = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.SuspendLayout();
             // 
             // lbl_detail_price
@@ -46,42 +47,56 @@
             this.lbl_detail_price.TabIndex = 0;
             this.lbl_detail_price.Text = "Price";
             // 
-            // materialListView1
+            // listview_detail
             // 
-            this.materialListView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listview_detail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listview_detail.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.col_detail_property,
             this.col_detail_value});
-            this.materialListView1.Depth = 0;
-            this.materialListView1.Font = new System.Drawing.Font("Roboto", 18F);
-            this.materialListView1.FullRowSelect = true;
-            this.materialListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.materialListView1.Location = new System.Drawing.Point(526, 203);
-            this.materialListView1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialListView1.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialListView1.Name = "materialListView1";
-            this.materialListView1.OwnerDraw = true;
-            this.materialListView1.Size = new System.Drawing.Size(433, 311);
-            this.materialListView1.TabIndex = 1;
-            this.materialListView1.UseCompatibleStateImageBehavior = false;
-            this.materialListView1.View = System.Windows.Forms.View.Details;
+            this.listview_detail.Depth = 0;
+            this.listview_detail.Font = new System.Drawing.Font("Roboto", 18F);
+            this.listview_detail.FullRowSelect = true;
+            this.listview_detail.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.listview_detail.Location = new System.Drawing.Point(526, 203);
+            this.listview_detail.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.listview_detail.MouseState = MaterialSkin.MouseState.OUT;
+            this.listview_detail.Name = "listview_detail";
+            this.listview_detail.OwnerDraw = true;
+            this.listview_detail.Size = new System.Drawing.Size(433, 311);
+            this.listview_detail.TabIndex = 1;
+            this.listview_detail.UseCompatibleStateImageBehavior = false;
+            this.listview_detail.View = System.Windows.Forms.View.Details;
             // 
             // col_detail_property
             // 
-            this.col_detail_property.Text = "";
+            this.col_detail_property.Text = "Name";
             this.col_detail_property.Width = 210;
             // 
             // col_detail_value
             // 
-            this.col_detail_value.Text = "";
+            this.col_detail_value.Text = "Value";
             this.col_detail_value.Width = 223;
+            // 
+            // materialRaisedButton1
+            // 
+            this.materialRaisedButton1.Depth = 0;
+            this.materialRaisedButton1.Location = new System.Drawing.Point(12, 548);
+            this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton1.Name = "materialRaisedButton1";
+            this.materialRaisedButton1.Primary = true;
+            this.materialRaisedButton1.Size = new System.Drawing.Size(75, 40);
+            this.materialRaisedButton1.TabIndex = 2;
+            this.materialRaisedButton1.Text = "Back";
+            this.materialRaisedButton1.UseVisualStyleBackColor = true;
+            this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click);
             // 
             // DetailForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1024, 600);
-            this.Controls.Add(this.materialListView1);
+            this.Controls.Add(this.materialRaisedButton1);
+            this.Controls.Add(this.listview_detail);
             this.Controls.Add(this.lbl_detail_price);
             this.Name = "DetailForm";
             this.Text = "DetailForm";
@@ -93,8 +108,9 @@
         #endregion
 
         private MaterialSkin.Controls.MaterialLabel lbl_detail_price;
-        private MaterialSkin.Controls.MaterialListView materialListView1;
+        private MaterialSkin.Controls.MaterialListView listview_detail;
         private System.Windows.Forms.ColumnHeader col_detail_property;
         private System.Windows.Forms.ColumnHeader col_detail_value;
+        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
     }
 }
