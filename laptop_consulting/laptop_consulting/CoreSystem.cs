@@ -40,8 +40,8 @@ namespace Laptop_Resuilt
         public static void init()
         {
             string currentDirectory = Directory.GetCurrentDirectory();
-            string pcPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\pc.v1.json");
-            string laptopPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\laptop.v1.json");
+            string pcPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\pc.v1.jsonld");
+            string laptopPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\laptop.v1.jsonld");
 
             manager = new OntologyManager(pcPath, laptopPath);
 
@@ -116,33 +116,35 @@ namespace Laptop_Resuilt
 
             return null;
         }
-        public static int matched(Dictionary<string, string> Known, m_laptop _laptop) // bộ so khớp
+        public static bool matched(Dictionary<string, string> Known, m_laptop _laptop) // bộ so khớp
         {
-            int count = 0; // số sự kiện khớp
+         
             // so sánh sự kiện trong Known với laptop;
             for (int i = 0; i < Known.Count; i++)
             {
-                if (Known.ContainsValue(_laptop._outside.price))
-                {
-                    count = count + 1;
-                }
-                if (Known.ContainsValue(_laptop._outside._weight))
-                {
-                    count++;
+                //if (Known.ContainsValue(_laptop._outside.price))
+                //{
+                //    return false;
+                //}
+                //if (Known.ContainsValue(_laptop._outside._weight))
+                //{
+                //    return false;
 
-                }
-                if (Known.ContainsValue(_laptop._outside._width))
-                {
-                    count++;
-                }
-                if (Known.ContainsValue(_laptop._cpu.m_ram))
-                {
-                    count++;
-                }
+                //}
+                //if (Known.ContainsValue(_laptop._outside._width))
+                //{
+                //    return false;
+                //}
+                //if (Known.ContainsValue(_laptop._cpu.m_ram))
+                //{
+                //    return false;
+                //}
+
+                
 
             }
             //......
-            return count;
+            return true;
         }
 
 
@@ -159,7 +161,7 @@ namespace Laptop_Resuilt
             }
             for (int i = 0; i < laptop.Count; i++)
             {
-                if (matched(Known, laptop[i]) > 0)
+                if (matched(Known, laptop[i])== true)
                 {
                     output.Add(index, laptop[i]);
                     index++;
