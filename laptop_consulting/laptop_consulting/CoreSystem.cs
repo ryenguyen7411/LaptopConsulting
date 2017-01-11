@@ -72,7 +72,7 @@ namespace Laptop_Resuilt
                 new_laptop._cpu.m_ram = GetMiscValue(i, Constants.RAM);
 
                 new_laptop._screen._screenResolution = GetMiscValue(i, Constants.SCREEN_RESOLUTION);
-
+                new_laptop._screen._screensize = GetMiscValue(i, Constants.SCREENSIZE);
                 new_laptop._battery._capacity = GetMiscValue(i, Constants.CAPACITY);
 
                 new_laptop._cons = GetMiscValue(i, Constants.CONS);
@@ -140,7 +140,35 @@ namespace Laptop_Resuilt
                 //    return false;
                 //}
 
+                if (Known.ElementAt(i).Value.CompareTo(_laptop._cpu.m_ram) != 0)
+                {
+                    return false;
+                }
+                if (_laptop._cpu.m_name.Contains(Known.ElementAt(i).Value)==false)
+                {
+                    return false;
+                }
+                if ( Known.ElementAt(i).Value.CompareTo(_laptop._screen._screensize)!=0)
+                {
+                    return false;
+                }
+
+
+
+                if (_laptop._gpu.m_name.Contains(Known.ElementAt(i).Value) == false)
+                {
+                    return false;
+                }
+                if(Known.ElementAt(i).Key.CompareTo(Constants.STORAGE) == 0)
+                {
+                    if (_laptop.storage.Contains(Known.ElementAt(i).Value) == false)
+                    {
+                        return false;
+                    }
+                }
                 
+                
+
 
             }
             //......
