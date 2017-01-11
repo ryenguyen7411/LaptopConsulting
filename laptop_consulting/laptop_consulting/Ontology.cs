@@ -15,8 +15,8 @@ namespace Laptop_Resuilt
         public Ontology()
         {
             string currentDirectory = Directory.GetCurrentDirectory();
-            string pcPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\pc.v2.json");
-            string laptopPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\laptop.v1.json");
+            string pcPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\pc.v2.jsonld");
+            string laptopPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\laptop.v1.jsonld");
             var manager = new OntologyManager(pcPath, laptopPath);
 
             //PcBuilds = LoadPcBuilds(manager.PcVer1s);
