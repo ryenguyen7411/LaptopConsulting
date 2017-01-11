@@ -40,8 +40,8 @@ namespace Laptop_Resuilt
         public static void init()
         {
             string currentDirectory = Directory.GetCurrentDirectory();
-            string pcPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\pc.v1.json");
-            string laptopPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\laptop.v1.json");
+            string pcPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\pc.v1.jsonld");
+            string laptopPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\laptop.v1.jsonld");
 
             manager = new OntologyManager(pcPath, laptopPath);
 
