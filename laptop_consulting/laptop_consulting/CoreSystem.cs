@@ -40,8 +40,8 @@ namespace Laptop_Resuilt
         public static void init()
         {
             string currentDirectory = Directory.GetCurrentDirectory();
-            string pcPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\pc.v1.jsonld");
-            string laptopPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\laptop.v1.jsonld");
+            string pcPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\pc.v1.json");
+            string laptopPath = Path.Combine(currentDirectory, @"..\..\..\ontology_manager\Ontology\laptop.v1.json");
 
             manager = new OntologyManager(pcPath, laptopPath);
 
@@ -152,33 +152,20 @@ namespace Laptop_Resuilt
             Dictionary<string, string> Known = new Dictionary<string, string>();
 
             Dictionary<int, m_laptop> output = new Dictionary<int, m_laptop>();
-
-            Dictionary<int, int> count = new Dictionary<int, int>();
             int index = 0;
-            Known = inputs;
-
-            for( int i=0;i<laptop.Count;i++)
-            {
-                if ( matched(Known,laptop[i])>0)
-                {
-                    output.Add(index, laptop[i]);
-                    index++;
-                }
-            }
-           /* foreach (var value in inputs)
+            foreach (var value in inputs)
             {
                 Known.Add(value.Key, value.Value);
             }
             for (int i = 0; i < laptop.Count; i++)
             {
-             
-                    //count.Add(index, matched(Known, laptop[i]));
-                  
-                
-                
-            }*/
+                if (matched(Known, laptop[i]) > 0)
+                {
+                    output.Add(index, laptop[i]);
+                    index++;
+                }
 
-    
+            }
 
 
 

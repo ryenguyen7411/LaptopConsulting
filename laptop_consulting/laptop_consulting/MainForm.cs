@@ -104,7 +104,7 @@ namespace Laptop_Resuilt
             {
                 input.Add(Constants.RAM, value);
             }
-            else if(tag.CompareTo("CPU") == 0)
+            else if(tag.CompareTo(Constants.CPU) == 0)
             {
                 switch (value)
                 {
@@ -127,7 +127,9 @@ namespace Laptop_Resuilt
             }
             else if(tag.CompareTo(Constants.STORAGE) == 0)
             {
-
+                string[] _values = value.Split(' ');
+                input.Add(Constants.STORAGE, _values[0]);
+                input.Add(Constants.STORAGE, _values[1]);
             }
             else if (tag.CompareTo(Constants.SCREENSIZE) == 0)
             {
@@ -135,24 +137,35 @@ namespace Laptop_Resuilt
             }
             else if (tag.CompareTo("DEMAND") == 0)
             {
-                //switch (value)
-                //{
-                //    case "Offices":
-                //    case "Gaming":
-                //        _standardizeValue = value;
-                //        break;
-                //    case "Graphics":
-                //        _standardizeValue = "i3";
-                //        break;
-                //    case "Business":
-                //        _standardizeValue = "i5";
-                //        break;
-                //    case "Fashion":
-                //        _standardizeValue = "i7";
-                //        break;
-                //    default:
-                //        break;
-                //}
+                switch (value)
+                {
+                    case "Offices":
+                        input.Add(Constants.RAM, "2GB");
+                        input.Add(Constants.CPU, "Core M");
+                        input.Add(Constants.GPU, "HD Graphics");
+                        input.Add(Constants.STORAGE, "HDD");
+                        input.Add(Constants.STORAGE, "500GB");
+                        break;
+                    case "Gaming":
+                        input.Add(Constants.RAM, "8GB");
+                        input.Add(Constants.CPU, "Core i7");
+                        input.Add(Constants.GPU, "GTX");
+                        input.Add(Constants.STORAGE, "HDD");
+                        input.Add(Constants.STORAGE, "1TB");
+                        break;
+                    case "Graphics":
+                        input.Add(Constants.RAM, "8GB");
+                        input.Add(Constants.CPU, "i7");
+                        input.Add(Constants.GPU, "GTX");
+                        input.Add(Constants.STORAGE, "SSD");
+                        input.Add(Constants.STORAGE, "512GB");
+                        break;
+                    case "Fashion":
+                        input.Add(Constants.WEIGHT, "4");
+                        break;
+                    default:
+                        break;
+                }
             }
         }
 
