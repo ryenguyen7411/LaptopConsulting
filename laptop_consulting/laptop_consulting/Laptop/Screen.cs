@@ -5,5 +5,6 @@
         public string _screenResolution;
         public string _screenSize;
         public string _webcam;
+        public string _screensize;
     }
 }

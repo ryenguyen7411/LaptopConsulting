@@ -146,7 +146,7 @@ namespace Laptop_Resuilt
 
                 if (IsEqual(_element.Key, Constants.STORAGE + "_type") && !IsContains(_laptop.storage, _element.Value))
                 {
-                        return false;
+                    return false;
                 }
             }
 
@@ -162,7 +162,7 @@ namespace Laptop_Resuilt
 
             for (int i = 0; i < laptop.Count; i++)
             {
-                if (matched(Known, laptop[i]) == true)
+                if (matched(Known, laptop[i]))
                 {
                     output.Add(i, laptop[i]);
                 }
@@ -175,7 +175,6 @@ namespace Laptop_Resuilt
         {
             if (str1 == null || str2 == null)
                 return false;
-
             return str1.CompareTo(str2) == 0;
         }
 
