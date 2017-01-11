@@ -124,9 +124,10 @@ namespace Laptop_Resuilt
             {
                 KeyValuePair<string, string> _element = Known.ElementAt(i);
 
-                if (IsEqual(_element.Key, Constants.RAM) && !IsEqual(_element.Value, _laptop._cpu.m_ram))
+                if (IsEqual(_element.Key, Constants.RAM))
                 {
-                    return false;
+                    if(StringToFloat(_element.Value) > StringToFloat(_laptop._cpu.m_ram))
+                        return false;
                 }
 
                 if (IsEqual(_element.Key, Constants.CPU) && !IsContains(_laptop._cpu.m_name, _element.Value))
@@ -134,9 +135,10 @@ namespace Laptop_Resuilt
                     return false;
                 }
 
-                if (IsEqual(_element.Key, Constants.SCREENSIZE) && !IsEqual(_element.Value, _laptop._screen._screenSize))
+                if (IsEqual(_element.Key, Constants.SCREENSIZE))
                 {
-                    return false;
+                    if(StringToFloat(_element.Value) > StringToFloat(_laptop._screen._screenSize))
+                        return false;
                 }
 
                 if (IsEqual(_element.Key, Constants.GPU) && !IsContains(_laptop._gpu.m_name, _element.Value))
@@ -147,6 +149,12 @@ namespace Laptop_Resuilt
                 if (IsEqual(_element.Key, Constants.STORAGE + "_type") && !IsContains(_laptop.storage, _element.Value))
                 {
                     return false;
+                }
+
+                if(IsEqual(_element.Key, Constants.STORAGE + "_value"))
+                {
+                    if (StringToFloat(_element.Value) > StringToFloat(_laptop.storage))
+                        return false;
                 }
             }
 
@@ -184,6 +192,32 @@ namespace Laptop_Resuilt
                 return false;
 
             return str1.Contains(str2);
+        }
+
+        public static float StringToFloat(string str)
+        {
+            if (str == null)
+                return 0;
+
+            float _value = 0;
+
+            for(int i = 0; i < str.Length; i++)
+            {
+                if (str[i] < '0' || str[i] > '9' || str[i] != '.')
+                    break;
+
+                if(i > 0 && str[i] - 1 == '.')
+                {
+                    _value += 10.0f / (str[i] - '0');
+                }
+                else if(str[i] != '.')
+                {
+                    _value *= 10;
+                    _value += str[i] - '0';
+                }
+            }
+
+            return _value;
         }
     }
 }

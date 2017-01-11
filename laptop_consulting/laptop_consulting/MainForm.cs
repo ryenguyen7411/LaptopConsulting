@@ -20,7 +20,10 @@ namespace Laptop_Resuilt
             Dictionary<int, Laptop.m_laptop> output = CoreSystem.ForwardChaining(GetUserInputValues());
 
             if (output.Count == 0)
+            {
                 MessageBox.Show("Không có sản phẩm phù hợp yêu cầu.", "Message");
+                return;
+            }
 
             ProductsForm _productsForm = new ProductsForm(output);
             _productsForm.Show();

@@ -56,7 +56,6 @@
             this.radio_demand_office = new MaterialSkin.Controls.MaterialRadioButton();
             this.radio_demand_gaming = new MaterialSkin.Controls.MaterialRadioButton();
             this.radio_demand_graphics = new MaterialSkin.Controls.MaterialRadioButton();
-            this.radio_demand_business = new MaterialSkin.Controls.MaterialRadioButton();
             this.radio_demand_fashion = new MaterialSkin.Controls.MaterialRadioButton();
             this.radio_price_500 = new MaterialSkin.Controls.MaterialRadioButton();
             this.radio_price_500_700 = new MaterialSkin.Controls.MaterialRadioButton();
@@ -512,28 +511,12 @@
             this.radio_demand_graphics.Text = "Graphics";
             this.radio_demand_graphics.UseVisualStyleBackColor = true;
             // 
-            // radio_demand_business
-            // 
-            this.radio_demand_business.AutoSize = true;
-            this.radio_demand_business.Depth = 0;
-            this.radio_demand_business.Font = new System.Drawing.Font("Roboto", 10F);
-            this.radio_demand_business.Location = new System.Drawing.Point(530, 0);
-            this.radio_demand_business.Margin = new System.Windows.Forms.Padding(0);
-            this.radio_demand_business.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.radio_demand_business.MouseState = MaterialSkin.MouseState.HOVER;
-            this.radio_demand_business.Name = "radio_demand_business";
-            this.radio_demand_business.Ripple = true;
-            this.radio_demand_business.Size = new System.Drawing.Size(115, 30);
-            this.radio_demand_business.TabIndex = 31;
-            this.radio_demand_business.Text = "Business";
-            this.radio_demand_business.UseVisualStyleBackColor = true;
-            // 
             // radio_demand_fashion
             // 
             this.radio_demand_fashion.AutoSize = true;
             this.radio_demand_fashion.Depth = 0;
             this.radio_demand_fashion.Font = new System.Drawing.Font("Roboto", 10F);
-            this.radio_demand_fashion.Location = new System.Drawing.Point(660, 0);
+            this.radio_demand_fashion.Location = new System.Drawing.Point(530, 0);
             this.radio_demand_fashion.Margin = new System.Windows.Forms.Padding(0);
             this.radio_demand_fashion.MouseLocation = new System.Drawing.Point(-1, -1);
             this.radio_demand_fashion.MouseState = MaterialSkin.MouseState.HOVER;
@@ -742,7 +725,6 @@
             this.panel_demand.Controls.Add(this.radio_demand_office);
             this.panel_demand.Controls.Add(this.radio_demand_gaming);
             this.panel_demand.Controls.Add(this.radio_demand_graphics);
-            this.panel_demand.Controls.Add(this.radio_demand_business);
             this.panel_demand.Controls.Add(this.radio_demand_fashion);
             this.panel_demand.Location = new System.Drawing.Point(0, 260);
             this.panel_demand.Name = "panel_demand";
@@ -779,6 +761,7 @@
             this.panel_price.Name = "panel_price";
             this.panel_price.Size = new System.Drawing.Size(1000, 40);
             this.panel_price.TabIndex = 43;
+            this.panel_price.Visible = false;
             // 
             // radio_price_all
             // 
@@ -919,7 +902,6 @@
         private MaterialSkin.Controls.MaterialRadioButton radio_demand_office;
         private MaterialSkin.Controls.MaterialRadioButton radio_demand_gaming;
         private MaterialSkin.Controls.MaterialRadioButton radio_demand_graphics;
-        private MaterialSkin.Controls.MaterialRadioButton radio_demand_business;
         private MaterialSkin.Controls.MaterialRadioButton radio_demand_fashion;
         private MaterialSkin.Controls.MaterialRadioButton radio_price_500;
         private MaterialSkin.Controls.MaterialRadioButton radio_price_500_700;

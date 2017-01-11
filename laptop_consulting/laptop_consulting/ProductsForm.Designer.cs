@@ -42,12 +42,12 @@
             this.listview_product.Font = new System.Drawing.Font("Roboto", 18F);
             this.listview_product.FullRowSelect = true;
             this.listview_product.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.listview_product.Location = new System.Drawing.Point(0, 65);
+            this.listview_product.Location = new System.Drawing.Point(0, 106);
             this.listview_product.MouseLocation = new System.Drawing.Point(-1, -1);
             this.listview_product.MouseState = MaterialSkin.MouseState.OUT;
             this.listview_product.Name = "listview_product";
             this.listview_product.OwnerDraw = true;
-            this.listview_product.Size = new System.Drawing.Size(1024, 458);
+            this.listview_product.Size = new System.Drawing.Size(1024, 417);
             this.listview_product.TabIndex = 0;
             this.listview_product.UseCompatibleStateImageBehavior = false;
             this.listview_product.View = System.Windows.Forms.View.Details;
