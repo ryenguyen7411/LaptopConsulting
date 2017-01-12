@@ -68,7 +68,7 @@ namespace Laptop_Resuilt
                 AddStandardized(ref _inputValues, "DEMAND", _demand.Text);
             }
 
-            var _prices = panel_screen.Controls.OfType<RadioButton>()
+            var _prices = panel_price.Controls.OfType<RadioButton>()
                 .FirstOrDefault(r => r.Checked);
             if (_prices.Text.CompareTo("All") != 0)
             {
@@ -142,6 +142,28 @@ namespace Laptop_Resuilt
                         break;
                     case "Fashion":
                         input[Constants.WEIGHT] = "4";
+                        break;
+                    default:
+                        break;
+                }
+            }
+            else if(tag.CompareTo(Constants.PRICE) == 0)
+            {
+                switch(value)
+                {
+                    case "<500$":
+                        input[Constants.PRICE + "_max"] = "500";
+                        break;
+                    case "500~700$":
+                        input[Constants.PRICE + "_min"] = "500";
+                        input[Constants.PRICE + "_max"] = "700";
+                        break;
+                    case "700~1000$":
+                        input[Constants.PRICE + "_min"] = "700";
+                        input[Constants.PRICE + "_max"] = "1000";
+                        break;
+                    case ">1000$":
+                        input[Constants.PRICE + "_min"] = "1000";
                         break;
                     default:
                         break;

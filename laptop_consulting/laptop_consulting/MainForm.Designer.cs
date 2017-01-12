@@ -761,7 +761,6 @@
             this.panel_price.Name = "panel_price";
             this.panel_price.Size = new System.Drawing.Size(1000, 40);
             this.panel_price.TabIndex = 43;
-            this.panel_price.Visible = false;
             // 
             // radio_price_all
             // 
