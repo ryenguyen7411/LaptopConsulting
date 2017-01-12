@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using Laptop_Resuilt.Laptop;
 using ontology_manager;
+using Newtonsoft.Json;
 
 namespace Laptop_Resuilt
 {
@@ -30,6 +31,13 @@ namespace Laptop_Resuilt
         public static readonly string WEIGHT = "weightlbs";
         public static readonly string CAPACITY = "batteryheavy";
         public static readonly string LONG_DECRIPTION = "longdesc";
+    }
+
+    public partial class PriceParser
+    {
+        public string price;
+        public string title;
+        public string url;
     }
 
     public static class CoreSystem
@@ -61,7 +69,14 @@ namespace Laptop_Resuilt
                 new_laptop._outside._width = GetMiscValue(i, Constants.WIDTH);
                 new_laptop._outside._panelCoating = GetMiscValue(i, Constants.PANELCOATING);
                 new_laptop._outside.thickness = GetMiscValue(i, Constants.THICKNESS);
-                new_laptop._outside.price = GetMiscValue(i, Constants.PRICE);
+
+                string _price = GetMiscValue(i, Constants.PRICE);
+
+                if (_price != null)
+                {
+                    var obj = JsonConvert.DeserializeObject<IEnumerable<PriceParser>>(_price);
+                    new_laptop._outside.price = obj.ElementAt(0).price;
+                }
 
                 new_laptop._gpu.m_decription = GetMiscValue(i, Constants.GPUDescription);
                 new_laptop._gpu.m_name = GetMiscValue(i, Constants.GPU);
@@ -156,6 +171,27 @@ namespace Laptop_Resuilt
                     if (StringToFloat(_element.Value) > StringToFloat(_laptop.storage))
                         return false;
                 }
+
+                float OFFSET = 50;
+                if(IsEqual(_element.Key, Constants.PRICE + "_min"))
+                {
+                    float element = StringToFloat(_element.Value);
+                    float laptop = StringToFloat(_laptop._outside.price);
+                    if (StringToFloat(_element.Value) - OFFSET > StringToFloat(_laptop._outside.price))
+                    {
+                        return false;
+                    }
+                }
+
+                if (IsEqual(_element.Key, Constants.PRICE + "_max"))
+                {
+                    float element = StringToFloat(_element.Value);
+                    float laptop = StringToFloat(_laptop._outside.price);
+                    if (StringToFloat(_element.Value) + OFFSET < StringToFloat(_laptop._outside.price))
+                    {
+                        return false;
+                    }
+                }
             }
 
             return true;
@@ -203,7 +239,13 @@ namespace Laptop_Resuilt
 
             for(int i = 0; i < str.Length; i++)
             {
-                if (str[i] < '0' || str[i] > '9' || str[i] != '.')
+                if (str[i] == '"')
+                    continue;
+
+                if (str[i] == '.')
+                    continue;
+
+                if (str[i] < '0' || str[i] > '9')
                     break;
 
                 if(i > 0 && str[i] - 1 == '.')
